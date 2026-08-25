@@ -1,0 +1,1476 @@
+{
+  "format_version": 1,
+  "created_at": "2026-08-25T16:41:38.793259+00:00",
+  "label": "dflash2-production",
+  "base_url": "http://127.0.0.1:5057",
+  "model": "qwen3.8-27b",
+  "prompt": "Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize.",
+  "output_tokens_per_request": 512,
+  "warmup_tokens_per_request": 64,
+  "trials": 5,
+  "warmups": [
+    {
+      "batch_size": 15,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 0.5603650399716571,
+      "completion_tokens": 960,
+      "aggregate_tokens_per_second": 1713.1689729404893,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 0.1878109979443252,
+          "mean": 0.1879259577409054,
+          "minimum": 0.18672281806357205,
+          "maximum": 0.18896295002195984,
+          "p95": 0.1888259341241792
+        },
+        "end_to_end_seconds": {
+          "median": 0.5586719879647717,
+          "mean": 0.5585198679938912,
+          "minimum": 0.5571699520805851,
+          "maximum": 0.5594631270505488,
+          "p95": 0.5592959886766039
+        },
+        "tpot_seconds": {
+          "median": 0.0058815131418495665,
+          "mean": 0.005882443019888665,
+          "minimum": 0.005876234538542728,
+          "maximum": 0.005886682381276928,
+          "p95": 0.00588633092600734
+        },
+        "client_tokens_per_second": {
+          "median": 114.55738139503008,
+          "mean": 114.58872790021071,
+          "minimum": 114.39538533558701,
+          "maximum": 114.86620870528118,
+          "p95": 114.80219008188506
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18876721302513033,
+          "end_to_end_seconds": 0.5592243579449132,
+          "tpot_seconds": 0.0058802721415838555,
+          "client_tokens_per_second": 114.4442281362579
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18896295002195984,
+          "end_to_end_seconds": 0.5591657259501517,
+          "tpot_seconds": 0.005876234538542728,
+          "client_tokens_per_second": 114.45622832345316
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18864935799501836,
+          "end_to_end_seconds": 0.5594631270505488,
+          "tpot_seconds": 0.005885932842151277,
+          "client_tokens_per_second": 114.39538533558701
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18838851898908615,
+          "end_to_end_seconds": 0.5590972129721195,
+          "tpot_seconds": 0.005884264983857672,
+          "client_tokens_per_second": 114.47025403646842
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.1884082700125873,
+          "end_to_end_seconds": 0.55894359794911,
+          "tpot_seconds": 0.0058815131418495665,
+          "client_tokens_per_second": 114.50171400984003
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.1880598870338872,
+          "end_to_end_seconds": 0.5588892460800707,
+          "tpot_seconds": 0.005886180302320373,
+          "client_tokens_per_second": 114.51284927896228
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18796880298759788,
+          "end_to_end_seconds": 0.5587880519451573,
+          "tpot_seconds": 0.005886019824723166,
+          "client_tokens_per_second": 114.53358706796638
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.1878109979443252,
+          "end_to_end_seconds": 0.5586719879647717,
+          "tpot_seconds": 0.005886682381276928,
+          "client_tokens_per_second": 114.55738139503008
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.1877096729585901,
+          "end_to_end_seconds": 0.5582042399328202,
+          "tpot_seconds": 0.005880866142448097,
+          "client_tokens_per_second": 114.65337491471293
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18761135009117424,
+          "end_to_end_seconds": 0.5581392180174589,
+          "tpot_seconds": 0.005881394728988645,
+          "client_tokens_per_second": 114.6667317651168
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.1871362819802016,
+          "end_to_end_seconds": 0.5576139179756865,
+          "tpot_seconds": 0.005880597396753728,
+          "client_tokens_per_second": 114.774753529001
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18771267402917147,
+          "end_to_end_seconds": 0.5579636410111561,
+          "tpot_seconds": 0.005876999475904519,
+          "client_tokens_per_second": 114.70281447733322
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18672281806357205,
+          "end_to_end_seconds": 0.5571699520805851,
+          "tpot_seconds": 0.005880113238365286,
+          "client_tokens_per_second": 114.86620870528118
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18752057605888695,
+          "end_to_end_seconds": 0.5583362450124696,
+          "tpot_seconds": 0.005885962999263216,
+          "client_tokens_per_second": 114.62626790164887
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 90,
+          "completion_tokens": 64,
+          "finish_reason": "length",
+          "ttft_seconds": 0.18745999492239207,
+          "end_to_end_seconds": 0.5581274980213493,
+          "tpot_seconds": 0.005883611160300908,
+          "client_tokens_per_second": 114.66913962650142
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    },
+    {
+      "batch_size": 12,
+      "trial": 0,
+      "status": "FAILED",
+      "wall_seconds": 0.012617305968888104,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      },
+      "requests": [
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    },
+    {
+      "batch_size": 8,
+      "trial": 0,
+      "status": "FAILED",
+      "wall_seconds": 0.007553099072538316,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      },
+      "requests": [
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    },
+    {
+      "batch_size": 1,
+      "trial": 0,
+      "status": "FAILED",
+      "wall_seconds": 0.0015090260421857238,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      },
+      "requests": [
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    }
+  ],
+  "runs": [
+    {
+      "batch_size": 15,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 5.537039638031274,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 0.15972241293638945,
+          "mean": 0.15956778833642601,
+          "minimum": 0.15880128892604262,
+          "maximum": 0.16007204493507743,
+          "p95": 0.1600580660160631
+        },
+        "end_to_end_seconds": {
+          "median": 5.535745961009525,
+          "mean": 5.534729738991397,
+          "minimum": 5.5198016909416765,
+          "maximum": 5.536294131074101,
+          "p95": 5.5362935500452295
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": 0.0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "p95": 0.0
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15880128892604262,
+          "end_to_end_seconds": 5.5353179349331185,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.16007204493507743,
+          "end_to_end_seconds": 5.5198016909416765,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.1592191340168938,
+          "end_to_end_seconds": 5.535745961009525,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.1599588020471856,
+          "end_to_end_seconds": 5.536293301032856,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.16000610298942775,
+          "end_to_end_seconds": 5.53611234400887,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15920622402336448,
+          "end_to_end_seconds": 5.535336536006071,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15976231393869966,
+          "end_to_end_seconds": 5.535840093973093,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15972241293638945,
+          "end_to_end_seconds": 5.535860284930095,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.16005207505077124,
+          "end_to_end_seconds": 5.536294131074101,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15949559397995472,
+          "end_to_end_seconds": 5.5360957029042765,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15892159310169518,
+          "end_to_end_seconds": 5.535345956101082,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15956454700790346,
+          "end_to_end_seconds": 5.536016630008817,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15911067102570087,
+          "end_to_end_seconds": 5.535568333929405,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.1598500070394948,
+          "end_to_end_seconds": 5.535614095046185,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": 0.15977401402778924,
+          "end_to_end_seconds": 5.535703088971786,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 0.0,
+        "trtllm_num_requests_completed_total": 0.0,
+        "trtllm_request_success_total[length]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 4528.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 17843.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 15,
+      "trial": 2,
+      "status": "SUCCESS",
+      "wall_seconds": 1.2048266379861161,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": 1.2038369319634512,
+          "mean": 1.2038774736613655,
+          "minimum": 1.2036147130420431,
+          "maximum": 1.2042228860082105,
+          "p95": 1.2042133232345804
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": 0.0,
+          "mean": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "p95": 0.0
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2036147130420431,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2042092249030247,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2039300649194047,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2042228860082105,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2038369319634512,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2040502399904653,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2037069259677082,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.203615474049002,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2039612859953195,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2037010870408267,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.204182573943399,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2037266270490363,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2037047570338473,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2040763900149614,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 0,
+          "completion_tokens": 0,
+          "finish_reason": null,
+          "ttft_seconds": null,
+          "end_to_end_seconds": 1.2036229229997844,
+          "tpot_seconds": null,
+          "client_tokens_per_second": 0.0
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 0.0,
+        "trtllm_num_requests_completed_total": 0.0,
+        "trtllm_request_success_total[length]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 246.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 1918.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 15,
+      "trial": 3,
+      "status": "FAILED",
+      "wall_seconds": 0.018481864011846483,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      },
+      "requests": [
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 0.0,
+        "trtllm_num_requests_completed_total": 0.0,
+        "trtllm_request_success_total[length]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 0.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 0.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 15,
+      "trial": 4,
+      "status": "FAILED",
+      "wall_seconds": 0.015303215011954308,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      },
+      "requests": [
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 0.0,
+        "trtllm_num_requests_completed_total": 0.0,
+        "trtllm_request_success_total[length]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 0.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 0.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 15,
+      "trial": 5,
+      "status": "FAILED",
+      "wall_seconds": 0.016393936006352305,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      },
+      "requests": [
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "completion_tokens": 0
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 0.0,
+        "trtllm_num_requests_completed_total": 0.0,
+        "trtllm_request_success_total[length]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[6]": 0.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 0.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 0.0
+      },
+      "speculation": null
+    }
+  ],
+  "summary": {
+    "15": {
+      "successful_trials": 2,
+      "failed_trials": 3,
+      "aggregate_tokens_per_second": {
+        "median": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "p95": 0.0
+      },
+      "ttft_seconds": {
+        "median": 0.15972241293638945,
+        "mean": 0.15956778833642601,
+        "minimum": 0.15880128892604262,
+        "maximum": 0.16007204493507743,
+        "p95": 0.1600580660160631
+      },
+      "end_to_end_seconds": {
+        "median": 3.3620122884749435,
+        "mean": 3.3693036063263815,
+        "minimum": 1.2036147130420431,
+        "maximum": 5.536294131074101,
+        "p95": 5.536211870372062
+      },
+      "tpot_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "client_tokens_per_second": {
+        "median": 0.0,
+        "mean": 0.0,
+        "minimum": 0.0,
+        "maximum": 0.0,
+        "p95": 0.0
+      }
+    },
+    "12": {
+      "successful_trials": 0,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "ttft_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "end_to_end_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "tpot_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "client_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      }
+    },
+    "8": {
+      "successful_trials": 0,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "ttft_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "end_to_end_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "tpot_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "client_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      }
+    },
+    "1": {
+      "successful_trials": 0,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "ttft_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "end_to_end_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "tpot_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "client_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      }
+    }
+  }
+}

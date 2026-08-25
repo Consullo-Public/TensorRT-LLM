@@ -8,7 +8,7 @@ This fork hosts independently installable TensorRT-LLM changes intended to impro
 
 ## Status
 
-The upstream `main` branch remains available for synchronization. This public landing branch contains documentation only. The proven production patch stack is being reconstructed into reviewable commits because the running system includes a composite Python overlay and a locally built native wheel that are not completely represented by the earlier development branch.
+The upstream `main` branch remains available for synchronization. This public branch now contains the evaluation suite and the first production-derived reliability patches. The remaining composite Python overlay and locally built native wheel are still being reconstructed into reviewable commits.
 
 No Consullo release tag is supported until a wheel is rebuilt from public tagged sources and passes the coordinated clean-install qualification on `minsky`.
 
@@ -25,11 +25,13 @@ No Consullo release tag is supported until a wheel is rebuilt from public tagged
 
 Each patch will identify its provenance, tests, effect, and upstream issue or pull-request candidate.
 
-## Reference result
+## Controlled reference result
 
-The existing private production baseline on a GeForce RTX 5090 selected 15 concurrent requests. Its median aggregate decode rate was 1126.77 tokens/second, compared with 770.46 tokens/second for the target-only control under the recorded workload. These results are host- and workload-specific reference evidence, not a performance guarantee.
+The August 25 controlled matrix on a GeForce RTX 5090 measured 1,154.85 median aggregate decode tokens/second at 15 concurrent requests, compared with 656.85 tokens/second for the target-only control. A request-shape selector at batch 12 further raised that shape from 1,067.79 to 1,284.55 tokens/second. These results are host- and workload-specific reference evidence, not a performance guarantee.
 
-The first public release must reproduce at least 1070.43 tokens/second—the 95% acceptance threshold—without OOM, request loss, server death, or persistent KV-cache leakage.
+The public release must reproduce at least 1,097.11 tokens/second—the 95% threshold of the new batch-15 controlled median—without OOM, request loss, server death, or persistent KV-cache leakage.
+
+The V2 scheduler now treats main and DFlash-private generation-cache allocation as one transaction and does not declare deadlock while completion-pending requests can release pages. This fixes the observed 15-request tail failure without requiring host-cache offload.
 
 ## Related projects
 
@@ -39,4 +41,3 @@ The first public release must reproduce at least 1070.43 tokens/second—the 95%
 - [Upstream TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
 This is a community-maintained fork and is not supported or endorsed by NVIDIA, Alibaba/Qwen, Z Lab, or the upstream maintainers.
-

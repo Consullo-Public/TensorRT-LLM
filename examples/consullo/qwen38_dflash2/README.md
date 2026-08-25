@@ -5,6 +5,7 @@ This directory contains the public evaluation tools used to select and reproduce
 ## Current tools
 
 - `benchmark_concurrency.py` runs fixed-output concurrent decode trials and records raw per-request timing and aggregate completion tokens/second.
+- `benchmark_controlled_matrix.py` synchronizes request starts, measures streaming TTFT and per-client latency, and captures DFlash acceptance metrics from Prometheus.
 - `compare_profiles.py` compares two result artifacts by batch size.
 - `summarize_results.py` renders a result artifact as Markdown or CSV.
 - `smoke_test_openai.py` checks `/v1/models` and performs a short deterministic completion.
@@ -27,6 +28,15 @@ python examples/consullo/qwen38_dflash2/benchmark_concurrency.py \
   --output-tokens 512 \
   --trials 5 \
   --output results/dflash2-production.json
+
+python examples/consullo/qwen38_dflash2/benchmark_controlled_matrix.py \
+  --label dflash2-controlled \
+  --base-url http://127.0.0.1:5057 \
+  --model qwen3.8-27b \
+  --batches 1,8,12,15 \
+  --output-tokens 512 \
+  --trials 5 \
+  --output results/dflash2-controlled.json
 ```
 
 The warmup is excluded from summaries. Aggregate decode throughput is:
@@ -40,6 +50,6 @@ sum(completion tokens returned by every request) / batch wall-clock seconds
 - Preserve raw trials and failures; do not report only the fastest run.
 - Record the exact source commits, artifact hashes, model revisions, driver, CUDA, PyTorch, and GPU.
 - Compare target-only and speculative configurations with the same prompts, output lengths, trial count, and concurrency.
+- Use synchronized starts, the same shape warmup, and an exactly tokenized prompt when comparing request shapes.
 - Do not claim that the `minsky` result generalizes to other machines or workloads.
 - Never place API tokens, model credentials, private paths, or environment-variable values in result artifacts.
-

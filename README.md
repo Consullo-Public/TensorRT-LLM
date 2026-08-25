@@ -10,24 +10,24 @@
 > This project is not supported or endorsed by NVIDIA, Alibaba/Qwen, or Z Lab.
 > The complete upstream README and attribution follow unchanged below.
 
-## Qwen3.8-27B batched decode benchmark
+## Qwen3.8-27B controlled batched decode benchmark
 
-On the `minsky` GeForce RTX 5090, the evaluated DFlash2 NVFP4-draft configuration reached a five-trial median of **1,126.77 aggregate decode tokens/second with 15 simultaneous requests**. The equivalent target-only control reached 770.46 tokens/second, making the measured batch-15 gain **46.25%**.
+On the `minsky` **NVIDIA GeForce RTX 5090 (Blackwell, SM120)**, the patched DFlash2 NVFP4-draft configuration reached a five-trial median of **1,154.85 aggregate decode tokens/second at 15 concurrent requests**. The controlled target-only result was 656.85 tokens/second, a measured **75.82% DFlash2 gain**. All 15-request trials completed after the V2 dual-cache lifecycle fix.
 
-**Benchmark GPU: NVIDIA GeForce RTX 5090 (Blackwell, SM120).**
+| Concurrent requests | Target-only aggregate tok/s | DFlash2 aggregate tok/s | DFlash2 gain | DFlash2 median client tok/s | Target / DFlash2 TTFT (ms) | DFlash2 accepted length |
+|---:|---:|---:|---:|---:|---:|---:|
+| 1 | 46.00 | **118.63** | +157.88% | 118.63 | 119.85 / 94.40 | 2.580 |
+| 8 | 361.45 | **885.28** | +144.93% | 110.67 | 125.22 / 115.73 | 2.431 |
+| 12 | 529.67 | **1,067.79** | +101.60% | 89.00 | 152.56 / 154.29 | 2.265 |
+| 15 | 656.85 | **1,154.85** | +75.82% | 92.27 | 157.68 / 157.98 | 2.645 |
 
-| Configuration | Requests submitted concurrently per batch | Input context tokens per request | Forced decode tokens per request | Decode tokens per completed batch | Median aggregate decode tok/s | Five-trial range |
-|---|---:|---:|---:|---:|---:|---:|
-| DFlash2, NVFP4 draft | 8 | 102 | 512 | 4,096 | **736.39** | 628.56–757.31 |
-| DFlash2, NVFP4 draft | 12 | 103–104 | 512 | 6,144 | **972.27** | 927.68–987.03 |
-| DFlash2, NVFP4 draft | 15 | 103–104 | 512 | 7,680 | **1,126.77** | 1,093.36–1,199.87 |
-| Target only | 15 | 103–104 | 512 | 7,680 | **770.46** | 768.52–771.80 |
+Each batch used synchronized OpenAI-compatible chat-completion requests with an exactly **90-token input context per request**, temperature `0`, `ignore_eos=true`, and exactly **512 decoded tokens per request**. Five measured trials followed a separate 64-token shape warmup. Aggregate decode throughput is the sum of all completion tokens divided by concurrent-batch wall time; it is not an individual client's streaming rate.
 
-Each batch consisted of the stated number of simultaneous OpenAI-compatible chat-completion requests. The workload used a deterministic technical-analysis prompt, temperature `0`, `ignore_eos=true`, and both `min_tokens` and `max_tokens` set to 512. The measured initial input context was 102–104 tokens per request; after the forced decode, each completed sequence contained approximately 614–616 input-plus-output tokens. A separate 64-token warmup was excluded.
+The same matrix exposed a request-shape optimization. Enabling DFlash's selector at batch 12 increased the median from 1,067.79 to **1,284.55 aggregate tok/s (+20.30%)**, raised accepted length from 2.265 to 2.768, and left TTFT essentially unchanged. Enabling it at batch 8 changed throughput by only +0.21%, so the production selector policy is `12,15`.
 
 Aggregate decode throughput is calculated as the sum of completion tokens returned by every request divided by wall-clock time for the entire concurrent batch. It is not a per-request rate and does not include prompt tokens. “Batch” here describes concurrently submitted HTTP requests; TensorRT-LLM may schedule those requests through different internal microbatch shapes during execution.
 
-The table reports the historical same-host workload used to choose the production concurrency limit, not the model's maximum supported context window or a universal optimum. Raw trials, exact timings, environment provenance, and known reproducibility limitations are available in the [published Minsky results](examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-21/README.md).
+These results are workload- and host-specific, not a universal performance guarantee. Raw per-request timings, Prometheus-derived acceptance metrics, failure evidence, and the exact method are available in the [controlled Minsky matrix](examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-controlled-matrix/README.md).
 
 <div align="center">
 

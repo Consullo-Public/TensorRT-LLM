@@ -1,0 +1,29 @@
+{
+  "format_version": 1,
+  "artifacts": [
+    {
+      "path": "target-only.json",
+      "sha256": "2be1038d8a01e3e78811784256884d10f8fe462fb1fe6a76f9e28f82c46252fb"
+    },
+    {
+      "path": "dflash2-production-patched.json",
+      "sha256": "3c3e3a75fc4bdc849bc62db40028f685b58e38f4db0729dc0d8e649ba6e37f60"
+    },
+    {
+      "path": "dflash2-selector-b12.json",
+      "sha256": "431ff945680a15aaf0a72aebfafdd79193de4efa35f1c5172b41c664f7e04906"
+    },
+    {
+      "path": "dflash2-selector-b8.json",
+      "sha256": "f9912647143d693266b116ed75b10dd7bc773101ac93639ec2b91bdeb72f1240"
+    },
+    {
+      "path": "dflash2-production.json",
+      "sha256": "326bb537c8b0f4f267064e42b0642ea9d235ed592c85580a1d5070af7963a2c0"
+    },
+    {
+      "path": "environment.json",
+      "sha256": "2b0e65dcea6bd51a1f80ceaf5d4f97d65e49719c6527799d51f85fadb6be1636"
+    }
+  ]
+}

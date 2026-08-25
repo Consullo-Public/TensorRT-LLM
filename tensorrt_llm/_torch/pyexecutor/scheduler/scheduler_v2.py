@@ -466,11 +466,15 @@ class KVCacheV2Scheduler(RequestScheduler):
                 and not r.is_generation_to_complete_state
                 and r.request_id not in inflight_request_ids
             )
-            if (
-                num_gen_candidates > 0
-                and not evicted
-                and not recompute_paused
-                and not inflight_request_ids
+            num_completion_pending = sum(
+                1 for r in active_requests if r.is_generation_to_complete_state
+            )
+            if self._is_generation_deadlock(
+                num_gen_candidates,
+                num_completion_pending,
+                evicted,
+                recompute_paused,
+                inflight_request_ids,
             ):
                 raise RuntimeError(
                     f"V2 scheduler deadlock: {num_gen_candidates} generation "
@@ -991,7 +995,7 @@ class KVCacheV2Scheduler(RequestScheduler):
         elif scheduled_beam_width != beam_width:
             return ScheduleAction.SKIP, 0, scheduled_beam_width, req_it_end
 
-        success = self.kv_cache_manager.try_allocate_generation(req)
+        success = self._try_allocate_generation(req)
 
         if not success:
             if self.has_cp_helix:
@@ -1137,7 +1141,7 @@ class KVCacheV2Scheduler(RequestScheduler):
             evicted.append(victim)
             req_it_end = victim_idx
 
-            if self.kv_cache_manager.try_allocate_generation(req):
+            if self._try_allocate_generation(req):
                 return req_it_end, True
 
         return req_it_end, False
@@ -1214,7 +1218,7 @@ class KVCacheV2Scheduler(RequestScheduler):
             # for an already-suspended victim. If it still fails, use any
             # secondary-tier capacity just released to ordinary-suspend another
             # active victim.
-            success = self.kv_cache_manager.try_allocate_generation(req)
+            success = self._try_allocate_generation(req)
             if not success and self.kv_cache_manager.can_evict:
                 req_it_end, success = self._try_evict_for_gen(
                     req, requests_list, req_it, req_it_end, evicted, inflight_request_ids
@@ -1224,6 +1228,34 @@ class KVCacheV2Scheduler(RequestScheduler):
                 return req_it_end, True
 
         return req_it_end, False
+
+    def _try_allocate_generation(self, req: LlmRequest) -> bool:
+        """Reserve main and draft KV capacity as one scheduler transaction."""
+        if not self.kv_cache_manager.try_allocate_generation(req):
+            return False
+        if self.draft_kv_cache_manager is None:
+            return True
+        if self.draft_kv_cache_manager.try_allocate_generation(req):
+            return True
+        self.kv_cache_manager.revert_allocate_generation(req)
+        return False
+
+    @staticmethod
+    def _is_generation_deadlock(
+        num_gen_candidates: int,
+        num_completion_pending: int,
+        evicted: list,
+        recompute_paused: list,
+        inflight_request_ids: set,
+    ) -> bool:
+        """Return whether no live scheduler action can release KV capacity."""
+        return (
+            num_gen_candidates > 0
+            and num_completion_pending == 0
+            and not evicted
+            and not recompute_paused
+            and not inflight_request_ids
+        )
 
     # ---- Sorting ----
 

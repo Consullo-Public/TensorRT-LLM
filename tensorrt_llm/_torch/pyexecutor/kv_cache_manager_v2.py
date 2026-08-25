@@ -2703,13 +2703,16 @@ class KVCacheManagerV2(BaseResourceManager):
                     raise RuntimeError(
                         f"Failed to resume draft KV cache for request {req.py_request_id}"
                     )
-                new_cap = self._required_gen_capacity(req, kv_cache.capacity)
+                scheduler_reserved = req.py_request_id in self._allocated_draft_lens
+                new_cap = kv_cache.capacity
+                if not scheduler_reserved:
+                    new_cap = self._required_gen_capacity(req, new_cap)
                 # Pad the resize up to _kv_reserve_draft_tokens (see __init__);
                 # no-op when reserve == draft_token_length.
                 reserve_slack = self._kv_reserve_draft_tokens - get_draft_token_length(req)
                 if reserve_slack > 0:
                     new_cap += reserve_slack
-                if not kv_cache.resize(new_cap):
+                if new_cap > kv_cache.capacity and not kv_cache.resize(new_cap):
                     raise RuntimeError(
                         f"Draft KV cache generation resize failed for request "
                         f"{req.py_request_id}: could not resize to {new_cap} tokens"
