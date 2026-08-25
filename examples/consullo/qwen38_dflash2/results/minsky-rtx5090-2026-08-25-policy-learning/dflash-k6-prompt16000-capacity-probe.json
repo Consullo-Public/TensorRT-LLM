@@ -1,0 +1,1676 @@
+{
+  "format_version": 2,
+  "created_at": "2026-08-25T18:33:46.746621+00:00",
+  "label": "dflash-k6-prompt16000-capacity-probe",
+  "base_url": "http://127.0.0.1:5057",
+  "model": "qwen3.8-27b",
+  "prompt": "Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must",
+  "expected_prompt_tokens": 16000,
+  "policy": {
+    "draft_length": 6,
+    "selector_batches": []
+  },
+  "output_tokens_per_request": 64,
+  "warmup_tokens_per_request": 16,
+  "trials": 1,
+  "warmups": [
+    {
+      "batch_size": 1,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 2.5323263780446723,
+      "completion_tokens": 16,
+      "aggregate_tokens_per_second": 6.318300886773667,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 2.37364677793812,
+          "mean": 2.37364677793812,
+          "minimum": 2.37364677793812,
+          "maximum": 2.37364677793812,
+          "p95": 2.37364677793812
+        },
+        "end_to_end_seconds": {
+          "median": 2.5321606199722737,
+          "mean": 2.5321606199722737,
+          "minimum": 2.5321606199722737,
+          "maximum": 2.5321606199722737,
+          "p95": 2.5321606199722737
+        },
+        "tpot_seconds": {
+          "median": 0.010567589468943575,
+          "mean": 0.010567589468943575,
+          "minimum": 0.010567589468943575,
+          "maximum": 0.010567589468943575,
+          "p95": 0.010567589468943575
+        },
+        "client_tokens_per_second": {
+          "median": 6.31871448983169,
+          "mean": 6.31871448983169,
+          "minimum": 6.31871448983169,
+          "maximum": 6.31871448983169,
+          "p95": 6.31871448983169
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.37364677793812,
+          "end_to_end_seconds": 2.5321606199722737,
+          "tpot_seconds": 0.010567589468943575,
+          "client_tokens_per_second": 6.31871448983169
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null,
+      "server_perf_metrics": [],
+      "server_timing_summary": {
+        "request_count": 0,
+        "prefill_gpu_forward_ms": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "queue_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      }
+    },
+    {
+      "batch_size": 2,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 4.268493026960641,
+      "completion_tokens": 32,
+      "aggregate_tokens_per_second": 7.496790974679286,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 3.154299870482646,
+          "mean": 3.154299870482646,
+          "minimum": 2.2970708389766514,
+          "maximum": 4.01152890198864,
+          "p95": 3.925805998838041
+        },
+        "end_to_end_seconds": {
+          "median": 3.626849684456829,
+          "mean": 3.626849684456829,
+          "minimum": 2.985336448997259,
+          "maximum": 4.268362919916399,
+          "p95": 4.204211596370442
+        },
+        "tpot_seconds": {
+          "median": 0.031503320931612205,
+          "mean": 0.031503320931612205,
+          "minimum": 0.01712226786185056,
+          "maximum": 0.045884374001373844,
+          "p95": 0.044446268694397675
+        },
+        "client_tokens_per_second": {
+          "median": 4.554019829147052,
+          "mean": 4.554019829147052,
+          "minimum": 3.748509744882092,
+          "maximum": 5.359529913412011,
+          "p95": 5.278978904985515
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.2970708389766514,
+          "end_to_end_seconds": 2.985336448997259,
+          "tpot_seconds": 0.045884374001373844,
+          "client_tokens_per_second": 5.359529913412011
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.01152890198864,
+          "end_to_end_seconds": 4.268362919916399,
+          "tpot_seconds": 0.01712226786185056,
+          "client_tokens_per_second": 3.748509744882092
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null,
+      "server_perf_metrics": [],
+      "server_timing_summary": {
+        "request_count": 0,
+        "prefill_gpu_forward_ms": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "queue_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      }
+    },
+    {
+      "batch_size": 4,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 8.123342109960504,
+      "completion_tokens": 64,
+      "aggregate_tokens_per_second": 7.878530675388626,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 5.2084790610242635,
+          "mean": 5.158050909027224,
+          "minimum": 2.308671665028669,
+          "maximum": 7.906573849031702,
+          "p95": 7.649052425671834
+        },
+        "end_to_end_seconds": {
+          "median": 6.317689284507651,
+          "mean": 5.94042077701306,
+          "minimum": 3.003247042070143,
+          "maximum": 8.123057496966794,
+          "p95": 7.979201411316171
+        },
+        "tpot_seconds": {
+          "median": 0.055627598101273185,
+          "mean": 0.05215799119905569,
+          "minimum": 0.01443224319567283,
+          "maximum": 0.08294452539800355,
+          "p95": 0.08024537224827023
+        },
+        "client_tokens_per_second": {
+          "median": 2.578850823480687,
+          "mean": 3.1137425955894873,
+          "minimum": 1.9697016801831713,
+          "maximum": 5.327567055213405,
+          "p95": 4.96707966026899
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 7.906573849031702,
+          "end_to_end_seconds": 8.123057496966794,
+          "tpot_seconds": 0.01443224319567283,
+          "client_tokens_per_second": 1.9697016801831713
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.2271937620826066,
+          "end_to_end_seconds": 5.47136164305266,
+          "tpot_seconds": 0.08294452539800355,
+          "client_tokens_per_second": 2.9243177555839743
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.308671665028669,
+          "end_to_end_seconds": 3.003247042070143,
+          "tpot_seconds": 0.046305025136098264,
+          "client_tokens_per_second": 5.327567055213405
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 6.1897643599659204,
+          "end_to_end_seconds": 7.164016925962642,
+          "tpot_seconds": 0.0649501710664481,
+          "client_tokens_per_second": 2.2333838913773993
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null,
+      "server_perf_metrics": [],
+      "server_timing_summary": {
+        "request_count": 0,
+        "prefill_gpu_forward_ms": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "queue_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      }
+    }
+  ],
+  "runs": [
+    {
+      "batch_size": 1,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 2.378684479976073,
+      "completion_tokens": 64,
+      "aggregate_tokens_per_second": 26.905628106105006,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 1.8473743390059099,
+          "mean": 1.8473743390059099,
+          "minimum": 1.8473743390059099,
+          "maximum": 1.8473743390059099,
+          "p95": 1.8473743390059099
+        },
+        "end_to_end_seconds": {
+          "median": 2.378559205099009,
+          "mean": 2.378559205099009,
+          "minimum": 2.378559205099009,
+          "maximum": 2.378559205099009,
+          "p95": 2.378559205099009
+        },
+        "tpot_seconds": {
+          "median": 0.008431505811001574,
+          "mean": 0.008431505811001574,
+          "minimum": 0.008431505811001574,
+          "maximum": 0.008431505811001574,
+          "p95": 0.008431505811001574
+        },
+        "client_tokens_per_second": {
+          "median": 26.907045182142507,
+          "mean": 26.907045182142507,
+          "minimum": 26.907045182142507,
+          "maximum": 26.907045182142507,
+          "p95": 26.907045182142507
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 64,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.8473743390059099,
+          "end_to_end_seconds": 2.378559205099009,
+          "tpot_seconds": 0.008431505811001574,
+          "client_tokens_per_second": 26.907045182142507
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 64.0,
+        "trtllm_num_requests_completed_total": 1.0,
+        "trtllm_request_success_total[length]": 1.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 14.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 11.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 7.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 7.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 4.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 3.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 19.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 19.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 19.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 19.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 19.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 19.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 52.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 108.0
+      },
+      "speculation": {
+        "draft_rounds": 19.0,
+        "drafted_tokens_by_position": [
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          19.0,
+          0.0
+        ],
+        "accepted_tokens_by_position": [
+          14.0,
+          11.0,
+          7.0,
+          7.0,
+          4.0,
+          3.0,
+          0.0
+        ],
+        "acceptance_rate": 0.40350877192982454,
+        "acceptance_length": 3.4210526315789473,
+        "position_survival_rate": [
+          0.7368421052631579,
+          0.5789473684210527,
+          0.3684210526315789,
+          0.3684210526315789,
+          0.21052631578947367,
+          0.15789473684210525,
+          null
+        ],
+        "scalar_draft_tokens": 108.0,
+        "scalar_accepted_tokens": 52.0
+      },
+      "server_perf_metrics": [
+        {
+          "request_id": 15,
+          "perf_metrics": {
+            "first_iter": 146,
+            "last_iter": 163,
+            "timing_metrics": {
+              "server_arrival_time": 701258.503239,
+              "arrival_time": 701258.527591,
+              "first_scheduled_time": 701258.593795,
+              "first_token_time": 701260.349424,
+              "server_first_token_time": 701260.350087,
+              "last_token_time": 701260.880537
+            },
+            "kv_cache_metrics": {
+              "num_total_allocated_blocks": 504,
+              "num_new_allocated_blocks": 504,
+              "num_reused_blocks": 0,
+              "num_missed_blocks": 501
+            }
+          },
+          "time_breakdown_metrics": {
+            "step_metrics": [
+              {
+                "forward_start_time": 701260.108593,
+                "forward_end_time": 701260.346681,
+                "sample_start_time": 701260.346728,
+                "sample_end_time": 701260.346908,
+                "gpu_forward_time": 238.08505249023438,
+                "gpu_sample_time": 0.22966399788856506,
+                "token_time": 701260.349414,
+                "iter": 1
+              },
+              {
+                "forward_start_time": 701260.348083,
+                "forward_end_time": 701260.349211,
+                "sample_start_time": 701260.349267,
+                "sample_end_time": 701260.349397,
+                "gpu_forward_time": 32.67961502075195,
+                "gpu_sample_time": 0.010591999627649784,
+                "token_time": 701260.380951,
+                "iter": 2
+              },
+              {
+                "forward_start_time": 701260.350303,
+                "forward_end_time": 701260.35118,
+                "sample_start_time": 701260.380793,
+                "sample_end_time": 701260.380934,
+                "gpu_forward_time": 31.553695678710938,
+                "gpu_sample_time": 0.01152000017464161,
+                "token_time": 701260.412504,
+                "iter": 3
+              },
+              {
+                "forward_start_time": 701260.381836,
+                "forward_end_time": 701260.382691,
+                "sample_start_time": 701260.412362,
+                "sample_end_time": 701260.412489,
+                "gpu_forward_time": 31.32636833190918,
+                "gpu_sample_time": 0.010623999871313572,
+                "token_time": 701260.443844,
+                "iter": 4
+              },
+              {
+                "forward_start_time": 701260.413275,
+                "forward_end_time": 701260.41406,
+                "sample_start_time": 701260.443707,
+                "sample_end_time": 701260.44383,
+                "gpu_forward_time": 31.261856079101562,
+                "gpu_sample_time": 0.013567999936640263,
+                "token_time": 701260.475575,
+                "iter": 5
+              },
+              {
+                "forward_start_time": 701260.444608,
+                "forward_end_time": 701260.44538,
+                "sample_start_time": 701260.475074,
+                "sample_end_time": 701260.475525,
+                "gpu_forward_time": 31.348896026611328,
+                "gpu_sample_time": 0.015904000028967857,
+                "token_time": 701260.506696,
+                "iter": 6
+              },
+              {
+                "forward_start_time": 701260.477221,
+                "forward_end_time": 701260.478445,
+                "sample_start_time": 701260.506381,
+                "sample_end_time": 701260.506663,
+                "gpu_forward_time": 31.217824935913086,
+                "gpu_sample_time": 0.009759999811649323,
+                "token_time": 701260.538023,
+                "iter": 7
+              },
+              {
+                "forward_start_time": 701260.508036,
+                "forward_end_time": 701260.509691,
+                "sample_start_time": 701260.537612,
+                "sample_end_time": 701260.53787,
+                "gpu_forward_time": 31.291584014892578,
+                "gpu_sample_time": 0.009472000412642956,
+                "token_time": 701260.569172,
+                "iter": 8
+              },
+              {
+                "forward_start_time": 701260.539146,
+                "forward_end_time": 701260.540297,
+                "sample_start_time": 701260.568914,
+                "sample_end_time": 701260.569143,
+                "gpu_forward_time": 31.146175384521484,
+                "gpu_sample_time": 0.015615999698638916,
+                "token_time": 701260.600361,
+                "iter": 9
+              },
+              {
+                "forward_start_time": 701260.570244,
+                "forward_end_time": 701260.571338,
+                "sample_start_time": 701260.600082,
+                "sample_end_time": 701260.600328,
+                "gpu_forward_time": 31.240352630615234,
+                "gpu_sample_time": 0.009503999724984169,
+                "token_time": 701260.631707,
+                "iter": 10
+              },
+              {
+                "forward_start_time": 701260.601523,
+                "forward_end_time": 701260.602645,
+                "sample_start_time": 701260.631356,
+                "sample_end_time": 701260.631663,
+                "gpu_forward_time": 31.07855987548828,
+                "gpu_sample_time": 0.01152000017464161,
+                "token_time": 701260.662637,
+                "iter": 11
+              },
+              {
+                "forward_start_time": 701260.632815,
+                "forward_end_time": 701260.633955,
+                "sample_start_time": 701260.662425,
+                "sample_end_time": 701260.662612,
+                "gpu_forward_time": 31.09494400024414,
+                "gpu_sample_time": 0.010463999584317207,
+                "token_time": 701260.693825,
+                "iter": 12
+              },
+              {
+                "forward_start_time": 701260.663684,
+                "forward_end_time": 701260.664692,
+                "sample_start_time": 701260.693561,
+                "sample_end_time": 701260.693789,
+                "gpu_forward_time": 31.19910430908203,
+                "gpu_sample_time": 0.014720000326633453,
+                "token_time": 701260.725206,
+                "iter": 13
+              },
+              {
+                "forward_start_time": 701260.69507,
+                "forward_end_time": 701260.696047,
+                "sample_start_time": 701260.724764,
+                "sample_end_time": 701260.725017,
+                "gpu_forward_time": 31.1060791015625,
+                "gpu_sample_time": 0.015615999698638916,
+                "token_time": 701260.756089,
+                "iter": 14
+              },
+              {
+                "forward_start_time": 701260.726999,
+                "forward_end_time": 701260.727955,
+                "sample_start_time": 701260.755874,
+                "sample_end_time": 701260.75601,
+                "gpu_forward_time": 31.074464797973633,
+                "gpu_sample_time": 0.01152000017464161,
+                "token_time": 701260.787104,
+                "iter": 15
+              },
+              {
+                "forward_start_time": 701260.756893,
+                "forward_end_time": 701260.757741,
+                "sample_start_time": 701260.786964,
+                "sample_end_time": 701260.78709,
+                "gpu_forward_time": 31.053983688354492,
+                "gpu_sample_time": 0.01152000017464161,
+                "token_time": 701260.818167,
+                "iter": 16
+              },
+              {
+                "forward_start_time": 701260.787907,
+                "forward_end_time": 701260.788671,
+                "sample_start_time": 701260.818034,
+                "sample_end_time": 701260.818153,
+                "gpu_forward_time": 31.17888069152832,
+                "gpu_sample_time": 0.01462399959564209,
+                "token_time": 701260.849379,
+                "iter": 17
+              },
+              {
+                "forward_start_time": 701260.818939,
+                "forward_end_time": 701260.819694,
+                "sample_start_time": 701260.849236,
+                "sample_end_time": 701260.849365,
+                "gpu_forward_time": 31.058080673217773,
+                "gpu_sample_time": 0.01375999953597784,
+                "token_time": 701260.880526,
+                "iter": 18
+              }
+            ],
+            "ctx_chunk_metrics": [
+              {
+                "forward_start_time": 701258.596528,
+                "forward_end_time": 701258.747597,
+                "sample_start_time": 701258.747645,
+                "sample_end_time": 701258.747781,
+                "gpu_forward_time": 151.06629943847656,
+                "gpu_sample_time": 0.18649600446224213,
+                "token_time": 701258.929171
+              },
+              {
+                "forward_start_time": 701258.749428,
+                "forward_end_time": 701258.928807,
+                "sample_start_time": 701258.928853,
+                "sample_end_time": 701258.928993,
+                "gpu_forward_time": 179.3770294189453,
+                "gpu_sample_time": 0.18771199882030487,
+                "token_time": 701259.130073
+              },
+              {
+                "forward_start_time": 701258.930741,
+                "forward_end_time": 701259.129737,
+                "sample_start_time": 701259.12978,
+                "sample_end_time": 701259.129908,
+                "gpu_forward_time": 198.9936981201172,
+                "gpu_sample_time": 0.1738239973783493,
+                "token_time": 701259.348558
+              },
+              {
+                "forward_start_time": 701259.131572,
+                "forward_end_time": 701259.348192,
+                "sample_start_time": 701259.34824,
+                "sample_end_time": 701259.348383,
+                "gpu_forward_time": 216.6161346435547,
+                "gpu_sample_time": 0.19382399320602417,
+                "token_time": 701259.584054
+              },
+              {
+                "forward_start_time": 701259.350115,
+                "forward_end_time": 701259.583668,
+                "sample_start_time": 701259.583716,
+                "sample_end_time": 701259.583869,
+                "gpu_forward_time": 233.5498504638672,
+                "gpu_sample_time": 0.20399999618530273,
+                "token_time": 701259.836701
+              },
+              {
+                "forward_start_time": 701259.58563,
+                "forward_end_time": 701259.836311,
+                "sample_start_time": 701259.836367,
+                "sample_end_time": 701259.836523,
+                "gpu_forward_time": 250.6778564453125,
+                "gpu_sample_time": 0.21503999829292297,
+                "token_time": 701260.106936
+              },
+              {
+                "forward_start_time": 701259.838301,
+                "forward_end_time": 701260.106565,
+                "sample_start_time": 701260.106609,
+                "sample_end_time": 701260.106755,
+                "gpu_forward_time": 268.2608337402344,
+                "gpu_sample_time": 0.1929280012845993,
+                "token_time": 701260.3471
+              }
+            ],
+            "ctx_gpu_forward_time": 1498.5417022705078,
+            "ctx_gpu_sample_time": 1.3538239896297455
+          }
+        }
+      ],
+      "server_timing_summary": {
+        "request_count": 1,
+        "prefill_gpu_forward_ms": {
+          "median": 1498.5417022705078,
+          "mean": 1498.5417022705078,
+          "minimum": 1498.5417022705078,
+          "maximum": 1498.5417022705078,
+          "p95": 1498.5417022705078
+        },
+        "queue_seconds": {
+          "median": 0.06620400003157556,
+          "mean": 0.06620400003157556,
+          "minimum": 0.06620400003157556,
+          "maximum": 0.06620400003157556,
+          "p95": 0.06620400003157556
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": 1.7556290000211447,
+          "mean": 1.7556290000211447,
+          "minimum": 1.7556290000211447,
+          "maximum": 1.7556290000211447,
+          "p95": 1.7556290000211447
+        }
+      }
+    },
+    {
+      "batch_size": 2,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 4.350288909976371,
+      "completion_tokens": 128,
+      "aggregate_tokens_per_second": 29.42333317368001,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 2.9559056130237877,
+          "mean": 2.9559056130237877,
+          "minimum": 2.062315750052221,
+          "maximum": 3.8494954759953544,
+          "p95": 3.7601364896981977
+        },
+        "end_to_end_seconds": {
+          "median": 4.208978522045072,
+          "mean": 4.208978522045072,
+          "minimum": 4.067873063031584,
+          "maximum": 4.35008398105856,
+          "p95": 4.335973435157212
+        },
+        "tpot_seconds": {
+          "median": 0.019890046174941025,
+          "mean": 0.019890046174941025,
+          "minimum": 0.007945849286717556,
+          "maximum": 0.03183424306316449,
+          "p95": 0.030639823374342144
+        },
+        "client_tokens_per_second": {
+          "median": 15.222698638847824,
+          "mean": 15.222698638847824,
+          "minimum": 14.712359641485836,
+          "maximum": 15.733037636209811,
+          "p95": 15.682003736473613
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 64,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.8494954759953544,
+          "end_to_end_seconds": 4.35008398105856,
+          "tpot_seconds": 0.007945849286717556,
+          "client_tokens_per_second": 14.712359641485836
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 16000,
+          "completion_tokens": 64,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.062315750052221,
+          "end_to_end_seconds": 4.067873063031584,
+          "tpot_seconds": 0.03183424306316449,
+          "client_tokens_per_second": 15.733037636209811
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 128.0,
+        "trtllm_num_requests_completed_total": 2.0,
+        "trtllm_request_success_total[length]": 2.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 23.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 21.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 20.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 19.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 13.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 11.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 31.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 31.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 31.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 31.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 31.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 31.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 107.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 162.0
+      },
+      "speculation": {
+        "draft_rounds": 31.0,
+        "drafted_tokens_by_position": [
+          31.0,
+          31.0,
+          31.0,
+          31.0,
+          31.0,
+          31.0,
+          0.0
+        ],
+        "accepted_tokens_by_position": [
+          23.0,
+          21.0,
+          20.0,
+          19.0,
+          13.0,
+          11.0,
+          0.0
+        ],
+        "acceptance_rate": 0.5752688172043011,
+        "acceptance_length": 4.451612903225806,
+        "position_survival_rate": [
+          0.7419354838709677,
+          0.6774193548387096,
+          0.6451612903225806,
+          0.6129032258064516,
+          0.41935483870967744,
+          0.3548387096774194,
+          null
+        ],
+        "scalar_draft_tokens": 162.0,
+        "scalar_accepted_tokens": 107.0
+      },
+      "server_perf_metrics": [
+        {
+          "request_id": 18,
+          "perf_metrics": {
+            "first_iter": 196,
+            "last_iter": 210,
+            "timing_metrics": {
+              "server_arrival_time": 701265.411885,
+              "arrival_time": 701265.430882,
+              "first_scheduled_time": 701265.498013,
+              "first_token_time": 701267.472932,
+              "server_first_token_time": 701267.473629,
+              "last_token_time": 701269.4778
+            },
+            "kv_cache_metrics": {
+              "num_total_allocated_blocks": 503,
+              "num_new_allocated_blocks": 503,
+              "num_reused_blocks": 0,
+              "num_missed_blocks": 501
+            }
+          },
+          "time_breakdown_metrics": {
+            "step_metrics": [
+              {
+                "forward_start_time": 701267.015042,
+                "forward_end_time": 701267.275645,
+                "sample_start_time": 701267.275696,
+                "sample_end_time": 701267.275884,
+                "gpu_forward_time": 260.5997619628906,
+                "gpu_sample_time": 0.2412160038948059,
+                "token_time": 701267.47292,
+                "iter": 1
+              },
+              {
+                "forward_start_time": 701267.277777,
+                "forward_end_time": 701267.472562,
+                "sample_start_time": 701267.472634,
+                "sample_end_time": 701267.472777,
+                "gpu_forward_time": 196.09744262695312,
+                "gpu_sample_time": 0.016095999628305435,
+                "token_time": 701267.684114,
+                "iter": 2
+              },
+              {
+                "forward_start_time": 701267.474557,
+                "forward_end_time": 701267.68376,
+                "sample_start_time": 701267.683814,
+                "sample_end_time": 701267.683959,
+                "gpu_forward_time": 210.49110412597656,
+                "gpu_sample_time": 0.011071999557316303,
+                "token_time": 701267.912876,
+                "iter": 3
+              },
+              {
+                "forward_start_time": 701267.685766,
+                "forward_end_time": 701267.912533,
+                "sample_start_time": 701267.912587,
+                "sample_end_time": 701267.91273,
+                "gpu_forward_time": 228.0614471435547,
+                "gpu_sample_time": 0.011008000001311302,
+                "token_time": 701268.15928,
+                "iter": 4
+              },
+              {
+                "forward_start_time": 701267.914516,
+                "forward_end_time": 701268.158923,
+                "sample_start_time": 701268.158974,
+                "sample_end_time": 701268.159126,
+                "gpu_forward_time": 245.72201538085938,
+                "gpu_sample_time": 0.0161920003592968,
+                "token_time": 701268.423777,
+                "iter": 5
+              },
+              {
+                "forward_start_time": 701268.163473,
+                "forward_end_time": 701268.423396,
+                "sample_start_time": 701268.423448,
+                "sample_end_time": 701268.423596,
+                "gpu_forward_time": 261.20111083984375,
+                "gpu_sample_time": 0.010912000201642513,
+                "token_time": 701268.70563,
+                "iter": 6
+              },
+              {
+                "forward_start_time": 701268.425482,
+                "forward_end_time": 701268.705237,
+                "sample_start_time": 701268.705298,
+                "sample_end_time": 701268.705463,
+                "gpu_forward_time": 281.0033874511719,
+                "gpu_sample_time": 0.01711999997496605,
+                "token_time": 701269.002494,
+                "iter": 7
+              },
+              {
+                "forward_start_time": 701268.707499,
+                "forward_end_time": 701269.002133,
+                "sample_start_time": 701269.002187,
+                "sample_end_time": 701269.002338,
+                "gpu_forward_time": 295.902099609375,
+                "gpu_sample_time": 0.014047999866306782,
+                "token_time": 701269.257575,
+                "iter": 8
+              },
+              {
+                "forward_start_time": 701269.004183,
+                "forward_end_time": 701269.257192,
+                "sample_start_time": 701269.257248,
+                "sample_end_time": 701269.257411,
+                "gpu_forward_time": 254.28253173828125,
+                "gpu_sample_time": 0.010784000158309937,
+                "token_time": 701269.260455,
+                "iter": 9
+              },
+              {
+                "forward_start_time": 701269.258714,
+                "forward_end_time": 701269.260262,
+                "sample_start_time": 701269.260311,
+                "sample_end_time": 701269.260438,
+                "gpu_forward_time": 29.897600173950195,
+                "gpu_sample_time": 0.014560000039637089,
+                "token_time": 701269.289132,
+                "iter": 10
+              },
+              {
+                "forward_start_time": 701269.261495,
+                "forward_end_time": 701269.262813,
+                "sample_start_time": 701269.288679,
+                "sample_end_time": 701269.288978,
+                "gpu_forward_time": 29.095104217529297,
+                "gpu_sample_time": 0.014783999882638454,
+                "token_time": 701269.318055,
+                "iter": 11
+              },
+              {
+                "forward_start_time": 701269.29035,
+                "forward_end_time": 701269.292016,
+                "sample_start_time": 701269.317792,
+                "sample_end_time": 701269.318029,
+                "gpu_forward_time": 28.982431411743164,
+                "gpu_sample_time": 0.015584000386297703,
+                "token_time": 701269.347036,
+                "iter": 12
+              },
+              {
+                "forward_start_time": 701269.319103,
+                "forward_end_time": 701269.320612,
+                "sample_start_time": 701269.346781,
+                "sample_end_time": 701269.347009,
+                "gpu_forward_time": 29.07663917541504,
+                "gpu_sample_time": 0.01568000018596649,
+                "token_time": 701269.376135,
+                "iter": 13
+              },
+              {
+                "forward_start_time": 701269.348294,
+                "forward_end_time": 701269.350277,
+                "sample_start_time": 701269.375873,
+                "sample_end_time": 701269.376031,
+                "gpu_forward_time": 28.996768951416016,
+                "gpu_sample_time": 0.011648000217974186,
+                "token_time": 701269.405102,
+                "iter": 14
+              },
+              {
+                "forward_start_time": 701269.377398,
+                "forward_end_time": 701269.378784,
+                "sample_start_time": 701269.404879,
+                "sample_end_time": 701269.405024,
+                "gpu_forward_time": 29.05411148071289,
+                "gpu_sample_time": 0.010591999627649784,
+                "token_time": 701269.477784,
+                "iter": 15
+              }
+            ],
+            "ctx_chunk_metrics": [
+              {
+                "forward_start_time": 701265.50098,
+                "forward_end_time": 701265.650446,
+                "sample_start_time": 701265.650469,
+                "sample_end_time": 701265.65065,
+                "gpu_forward_time": 149.46556091308594,
+                "gpu_sample_time": 0.20723199844360352,
+                "token_time": 701265.830131
+              },
+              {
+                "forward_start_time": 701265.651973,
+                "forward_end_time": 701265.829656,
+                "sample_start_time": 701265.829718,
+                "sample_end_time": 701265.829898,
+                "gpu_forward_time": 177.67868041992188,
+                "gpu_sample_time": 0.24687999486923218,
+                "token_time": 701266.031877
+              },
+              {
+                "forward_start_time": 701265.832259,
+                "forward_end_time": 701266.031377,
+                "sample_start_time": 701266.031459,
+                "sample_end_time": 701266.031653,
+                "gpu_forward_time": 199.11141967773438,
+                "gpu_sample_time": 0.28271999955177307,
+                "token_time": 701266.250505
+              },
+              {
+                "forward_start_time": 701266.03343,
+                "forward_end_time": 701266.25013,
+                "sample_start_time": 701266.250177,
+                "sample_end_time": 701266.250325,
+                "gpu_forward_time": 216.697509765625,
+                "gpu_sample_time": 0.19705599546432495,
+                "token_time": 701266.486334
+              },
+              {
+                "forward_start_time": 701266.252149,
+                "forward_end_time": 701266.485952,
+                "sample_start_time": 701266.486004,
+                "sample_end_time": 701266.486155,
+                "gpu_forward_time": 233.8000030517578,
+                "gpu_sample_time": 0.20627200603485107,
+                "token_time": 701266.73963
+              },
+              {
+                "forward_start_time": 701266.48799,
+                "forward_end_time": 701266.739264,
+                "sample_start_time": 701266.73931,
+                "sample_end_time": 701266.739453,
+                "gpu_forward_time": 251.27122497558594,
+                "gpu_sample_time": 0.19180800020694733,
+                "token_time": 701267.010231
+              },
+              {
+                "forward_start_time": 701266.741243,
+                "forward_end_time": 701267.00986,
+                "sample_start_time": 701267.009907,
+                "sample_end_time": 701267.010057,
+                "gpu_forward_time": 268.61358642578125,
+                "gpu_sample_time": 0.19968000054359436,
+                "token_time": 701267.276098
+              }
+            ],
+            "ctx_gpu_forward_time": 1496.6379852294922,
+            "ctx_gpu_sample_time": 1.5316479951143265
+          }
+        },
+        {
+          "request_id": 19,
+          "perf_metrics": {
+            "first_iter": 204,
+            "last_iter": 217,
+            "timing_metrics": {
+              "server_arrival_time": 701265.412316,
+              "arrival_time": 701265.44014,
+              "first_scheduled_time": 701267.011965,
+              "first_token_time": 701269.260487,
+              "server_first_token_time": 701269.260974,
+              "last_token_time": 701269.754282
+            },
+            "kv_cache_metrics": {
+              "num_total_allocated_blocks": 504,
+              "num_new_allocated_blocks": 504,
+              "num_reused_blocks": 0,
+              "num_missed_blocks": 501
+            }
+          },
+          "time_breakdown_metrics": {
+            "step_metrics": [
+              {
+                "forward_start_time": 701269.004183,
+                "forward_end_time": 701269.257192,
+                "sample_start_time": 701269.257248,
+                "sample_end_time": 701269.257411,
+                "gpu_forward_time": 254.28253173828125,
+                "gpu_sample_time": 0.010784000158309937,
+                "token_time": 701269.260455,
+                "iter": 1
+              },
+              {
+                "forward_start_time": 701269.258714,
+                "forward_end_time": 701269.260262,
+                "sample_start_time": 701269.260311,
+                "sample_end_time": 701269.260438,
+                "gpu_forward_time": 29.897600173950195,
+                "gpu_sample_time": 0.014560000039637089,
+                "token_time": 701269.289132,
+                "iter": 2
+              },
+              {
+                "forward_start_time": 701269.261495,
+                "forward_end_time": 701269.262813,
+                "sample_start_time": 701269.288679,
+                "sample_end_time": 701269.288978,
+                "gpu_forward_time": 29.095104217529297,
+                "gpu_sample_time": 0.014783999882638454,
+                "token_time": 701269.318055,
+                "iter": 3
+              },
+              {
+                "forward_start_time": 701269.29035,
+                "forward_end_time": 701269.292016,
+                "sample_start_time": 701269.317792,
+                "sample_end_time": 701269.318029,
+                "gpu_forward_time": 28.982431411743164,
+                "gpu_sample_time": 0.015584000386297703,
+                "token_time": 701269.347036,
+                "iter": 4
+              },
+              {
+                "forward_start_time": 701269.319103,
+                "forward_end_time": 701269.320612,
+                "sample_start_time": 701269.346781,
+                "sample_end_time": 701269.347009,
+                "gpu_forward_time": 29.07663917541504,
+                "gpu_sample_time": 0.01568000018596649,
+                "token_time": 701269.376135,
+                "iter": 5
+              },
+              {
+                "forward_start_time": 701269.348294,
+                "forward_end_time": 701269.350277,
+                "sample_start_time": 701269.375873,
+                "sample_end_time": 701269.376031,
+                "gpu_forward_time": 28.996768951416016,
+                "gpu_sample_time": 0.011648000217974186,
+                "token_time": 701269.405102,
+                "iter": 6
+              },
+              {
+                "forward_start_time": 701269.377398,
+                "forward_end_time": 701269.378784,
+                "sample_start_time": 701269.404879,
+                "sample_end_time": 701269.405024,
+                "gpu_forward_time": 29.05411148071289,
+                "gpu_sample_time": 0.010591999627649784,
+                "token_time": 701269.477784,
+                "iter": 7
+              },
+              {
+                "forward_start_time": 701269.405956,
+                "forward_end_time": 701269.47751,
+                "sample_start_time": 701269.477573,
+                "sample_end_time": 701269.47775,
+                "gpu_forward_time": 44.88105773925781,
+                "gpu_sample_time": 0.009440000168979168,
+                "token_time": 701269.53064,
+                "iter": 8
+              },
+              {
+                "forward_start_time": 701269.484909,
+                "forward_end_time": 701269.530399,
+                "sample_start_time": 701269.530451,
+                "sample_end_time": 701269.53061,
+                "gpu_forward_time": 46.79654312133789,
+                "gpu_sample_time": 0.009472000412642956,
+                "token_time": 701269.576079,
+                "iter": 9
+              },
+              {
+                "forward_start_time": 701269.531909,
+                "forward_end_time": 701269.575811,
+                "sample_start_time": 701269.575866,
+                "sample_end_time": 701269.576046,
+                "gpu_forward_time": 45.19686508178711,
+                "gpu_sample_time": 0.010463999584317207,
+                "token_time": 701269.620159,
+                "iter": 10
+              },
+              {
+                "forward_start_time": 701269.577184,
+                "forward_end_time": 701269.619895,
+                "sample_start_time": 701269.619949,
+                "sample_end_time": 701269.620127,
+                "gpu_forward_time": 43.99372863769531,
+                "gpu_sample_time": 0.009472000412642956,
+                "token_time": 701269.664785,
+                "iter": 11
+              },
+              {
+                "forward_start_time": 701269.62148,
+                "forward_end_time": 701269.664436,
+                "sample_start_time": 701269.664488,
+                "sample_end_time": 701269.664649,
+                "gpu_forward_time": 44.269439697265625,
+                "gpu_sample_time": 0.012575999833643436,
+                "token_time": 701269.709425,
+                "iter": 12
+              },
+              {
+                "forward_start_time": 701269.666218,
+                "forward_end_time": 701269.709179,
+                "sample_start_time": 701269.709229,
+                "sample_end_time": 701269.709393,
+                "gpu_forward_time": 44.261024475097656,
+                "gpu_sample_time": 0.016704000532627106,
+                "token_time": 701269.75318,
+                "iter": 13
+              },
+              {
+                "forward_start_time": 701269.710517,
+                "forward_end_time": 701269.752919,
+                "sample_start_time": 701269.75297,
+                "sample_end_time": 701269.753149,
+                "gpu_forward_time": 43.71129608154297,
+                "gpu_sample_time": 0.009440000168979168,
+                "token_time": 701269.754273,
+                "iter": 14
+              }
+            ],
+            "ctx_chunk_metrics": [
+              {
+                "forward_start_time": 701267.015042,
+                "forward_end_time": 701267.275645,
+                "sample_start_time": 701267.275696,
+                "sample_end_time": 701267.275884,
+                "gpu_forward_time": 260.5997619628906,
+                "gpu_sample_time": 0.2412160038948059,
+                "token_time": 701267.47292
+              },
+              {
+                "forward_start_time": 701267.277777,
+                "forward_end_time": 701267.472562,
+                "sample_start_time": 701267.472634,
+                "sample_end_time": 701267.472777,
+                "gpu_forward_time": 196.09744262695312,
+                "gpu_sample_time": 0.016095999628305435,
+                "token_time": 701267.684114
+              },
+              {
+                "forward_start_time": 701267.474557,
+                "forward_end_time": 701267.68376,
+                "sample_start_time": 701267.683814,
+                "sample_end_time": 701267.683959,
+                "gpu_forward_time": 210.49110412597656,
+                "gpu_sample_time": 0.011071999557316303,
+                "token_time": 701267.912876
+              },
+              {
+                "forward_start_time": 701267.685766,
+                "forward_end_time": 701267.912533,
+                "sample_start_time": 701267.912587,
+                "sample_end_time": 701267.91273,
+                "gpu_forward_time": 228.0614471435547,
+                "gpu_sample_time": 0.011008000001311302,
+                "token_time": 701268.15928
+              },
+              {
+                "forward_start_time": 701267.914516,
+                "forward_end_time": 701268.158923,
+                "sample_start_time": 701268.158974,
+                "sample_end_time": 701268.159126,
+                "gpu_forward_time": 245.72201538085938,
+                "gpu_sample_time": 0.0161920003592968,
+                "token_time": 701268.423777
+              },
+              {
+                "forward_start_time": 701268.163473,
+                "forward_end_time": 701268.423396,
+                "sample_start_time": 701268.423448,
+                "sample_end_time": 701268.423596,
+                "gpu_forward_time": 261.20111083984375,
+                "gpu_sample_time": 0.010912000201642513,
+                "token_time": 701268.70563
+              },
+              {
+                "forward_start_time": 701268.425482,
+                "forward_end_time": 701268.705237,
+                "sample_start_time": 701268.705298,
+                "sample_end_time": 701268.705463,
+                "gpu_forward_time": 281.0033874511719,
+                "gpu_sample_time": 0.01711999997496605,
+                "token_time": 701269.002494
+              },
+              {
+                "forward_start_time": 701268.707499,
+                "forward_end_time": 701269.002133,
+                "sample_start_time": 701269.002187,
+                "sample_end_time": 701269.002338,
+                "gpu_forward_time": 295.902099609375,
+                "gpu_sample_time": 0.014047999866306782,
+                "token_time": 701269.257575
+              }
+            ],
+            "ctx_gpu_forward_time": 1979.078369140625,
+            "ctx_gpu_sample_time": 0.3376640034839511
+          }
+        }
+      ],
+      "server_timing_summary": {
+        "request_count": 2,
+        "prefill_gpu_forward_ms": {
+          "median": 1737.8581771850586,
+          "mean": 1737.8581771850586,
+          "minimum": 1496.6379852294922,
+          "maximum": 1979.078369140625,
+          "p95": 1954.9563499450683
+        },
+        "queue_seconds": {
+          "median": 0.8194779999903403,
+          "mean": 0.8194779999903403,
+          "minimum": 0.06713099998887628,
+          "maximum": 1.5718249999918044,
+          "p95": 1.4965902999916578
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": 2.1117204999900423,
+          "mean": 2.1117204999900423,
+          "minimum": 1.9749189999420196,
+          "maximum": 2.248522000038065,
+          "p95": 2.2348418500332627
+        }
+      }
+    },
+    {
+      "batch_size": 4,
+      "trial": 1,
+      "status": "FAILED",
+      "wall_seconds": 3.6331617969553918,
+      "completion_tokens": 0,
+      "aggregate_tokens_per_second": 0.0,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "end_to_end_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "tpot_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "client_tokens_per_second": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      },
+      "requests": [
+        {
+          "status": "FAILED",
+          "error": "RuntimeError: expected 64 completion tokens, received 0",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "RuntimeError: expected 64 completion tokens, received 0",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "RuntimeError: expected 64 completion tokens, received 0",
+          "completion_tokens": 0
+        },
+        {
+          "status": "FAILED",
+          "error": "RuntimeError: expected 64 completion tokens, received 0",
+          "completion_tokens": 0
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 0.0,
+        "trtllm_num_requests_completed_total": 0.0,
+        "trtllm_request_success_total[length]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_accepted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[0]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[1]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[2]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[3]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[4]": 0.0,
+        "trtllm_spec_decode_drafted_tokens_total[5]": 0.0,
+        "trtllm_spec_decode_num_accepted_tokens_total": 17.0,
+        "trtllm_spec_decode_num_draft_tokens_total": 24.0
+      },
+      "speculation": null,
+      "server_perf_metrics": [],
+      "server_timing_summary": {
+        "request_count": 0,
+        "prefill_gpu_forward_ms": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "queue_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      }
+    }
+  ],
+  "summary": {
+    "1": {
+      "successful_trials": 1,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": 26.905628106105006,
+        "mean": 26.905628106105006,
+        "minimum": 26.905628106105006,
+        "maximum": 26.905628106105006,
+        "p95": 26.905628106105006
+      },
+      "ttft_seconds": {
+        "median": 1.8473743390059099,
+        "mean": 1.8473743390059099,
+        "minimum": 1.8473743390059099,
+        "maximum": 1.8473743390059099,
+        "p95": 1.8473743390059099
+      },
+      "end_to_end_seconds": {
+        "median": 2.378559205099009,
+        "mean": 2.378559205099009,
+        "minimum": 2.378559205099009,
+        "maximum": 2.378559205099009,
+        "p95": 2.378559205099009
+      },
+      "tpot_seconds": {
+        "median": 0.008431505811001574,
+        "mean": 0.008431505811001574,
+        "minimum": 0.008431505811001574,
+        "maximum": 0.008431505811001574,
+        "p95": 0.008431505811001574
+      },
+      "client_tokens_per_second": {
+        "median": 26.907045182142507,
+        "mean": 26.907045182142507,
+        "minimum": 26.907045182142507,
+        "maximum": 26.907045182142507,
+        "p95": 26.907045182142507
+      },
+      "server_timing": {
+        "request_count": 1,
+        "prefill_gpu_forward_ms": {
+          "median": 1498.5417022705078,
+          "mean": 1498.5417022705078,
+          "minimum": 1498.5417022705078,
+          "maximum": 1498.5417022705078,
+          "p95": 1498.5417022705078
+        },
+        "queue_seconds": {
+          "median": 0.06620400003157556,
+          "mean": 0.06620400003157556,
+          "minimum": 0.06620400003157556,
+          "maximum": 0.06620400003157556,
+          "p95": 0.06620400003157556
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": 1.7556290000211447,
+          "mean": 1.7556290000211447,
+          "minimum": 1.7556290000211447,
+          "maximum": 1.7556290000211447,
+          "p95": 1.7556290000211447
+        }
+      },
+      "acceptance_rate": {
+        "median": 0.40350877192982454,
+        "mean": 0.40350877192982454,
+        "minimum": 0.40350877192982454,
+        "maximum": 0.40350877192982454,
+        "p95": 0.40350877192982454
+      },
+      "acceptance_length": {
+        "median": 3.4210526315789473,
+        "mean": 3.4210526315789473,
+        "minimum": 3.4210526315789473,
+        "maximum": 3.4210526315789473,
+        "p95": 3.4210526315789473
+      },
+      "position_survival_rate": [
+        0.7368421052631579,
+        0.5789473684210527,
+        0.3684210526315789,
+        0.3684210526315789,
+        0.21052631578947367,
+        0.15789473684210525,
+        null
+      ]
+    },
+    "2": {
+      "successful_trials": 1,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": 29.42333317368001,
+        "mean": 29.42333317368001,
+        "minimum": 29.42333317368001,
+        "maximum": 29.42333317368001,
+        "p95": 29.42333317368001
+      },
+      "ttft_seconds": {
+        "median": 2.9559056130237877,
+        "mean": 2.9559056130237877,
+        "minimum": 2.062315750052221,
+        "maximum": 3.8494954759953544,
+        "p95": 3.7601364896981977
+      },
+      "end_to_end_seconds": {
+        "median": 4.208978522045072,
+        "mean": 4.208978522045072,
+        "minimum": 4.067873063031584,
+        "maximum": 4.35008398105856,
+        "p95": 4.335973435157212
+      },
+      "tpot_seconds": {
+        "median": 0.019890046174941025,
+        "mean": 0.019890046174941025,
+        "minimum": 0.007945849286717556,
+        "maximum": 0.03183424306316449,
+        "p95": 0.030639823374342144
+      },
+      "client_tokens_per_second": {
+        "median": 15.222698638847824,
+        "mean": 15.222698638847824,
+        "minimum": 14.712359641485836,
+        "maximum": 15.733037636209811,
+        "p95": 15.682003736473613
+      },
+      "server_timing": {
+        "request_count": 2,
+        "prefill_gpu_forward_ms": {
+          "median": 1737.8581771850586,
+          "mean": 1737.8581771850586,
+          "minimum": 1496.6379852294922,
+          "maximum": 1979.078369140625,
+          "p95": 1954.9563499450683
+        },
+        "queue_seconds": {
+          "median": 0.8194779999903403,
+          "mean": 0.8194779999903403,
+          "minimum": 0.06713099998887628,
+          "maximum": 1.5718249999918044,
+          "p95": 1.4965902999916578
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": 2.1117204999900423,
+          "mean": 2.1117204999900423,
+          "minimum": 1.9749189999420196,
+          "maximum": 2.248522000038065,
+          "p95": 2.2348418500332627
+        }
+      },
+      "acceptance_rate": {
+        "median": 0.5752688172043011,
+        "mean": 0.5752688172043011,
+        "minimum": 0.5752688172043011,
+        "maximum": 0.5752688172043011,
+        "p95": 0.5752688172043011
+      },
+      "acceptance_length": {
+        "median": 4.451612903225806,
+        "mean": 4.451612903225806,
+        "minimum": 4.451612903225806,
+        "maximum": 4.451612903225806,
+        "p95": 4.451612903225806
+      },
+      "position_survival_rate": [
+        0.7419354838709677,
+        0.6774193548387096,
+        0.6451612903225806,
+        0.6129032258064516,
+        0.41935483870967744,
+        0.3548387096774194,
+        null
+      ]
+    },
+    "4": {
+      "successful_trials": 0,
+      "failed_trials": 1,
+      "aggregate_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "ttft_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "end_to_end_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "tpot_seconds": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "client_tokens_per_second": {
+        "median": null,
+        "mean": null,
+        "minimum": null,
+        "maximum": null,
+        "p95": null
+      },
+      "server_timing": {
+        "request_count": 0,
+        "prefill_gpu_forward_ms": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "queue_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        },
+        "scheduled_to_first_token_seconds": {
+          "median": null,
+          "mean": null,
+          "minimum": null,
+          "maximum": null,
+          "p95": null
+        }
+      }
+    }
+  }
+}

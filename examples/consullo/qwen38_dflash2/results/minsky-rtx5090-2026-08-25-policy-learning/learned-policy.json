@@ -1,0 +1,863 @@
+{
+  "format_version": 1,
+  "created_at": "2026-08-25T18:48:09.000025+00:00",
+  "policy_change_gate": {
+    "minimum_successful_trials": 5,
+    "maximum_failed_trials": 0,
+    "minimum_absolute_relative_throughput_effect": 0.03
+  },
+  "shape_decisions": [
+    {
+      "prompt_tokens": 90,
+      "output_tokens": 512,
+      "batch_size": 12,
+      "decision": "USE_DRAFT_LENGTH",
+      "relative_throughput_effect": 0.13186110677981921,
+      "target_only": null,
+      "best_dflash": {
+        "label": "dflash2-k4-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k4.json",
+        "batch_size": 12,
+        "draft_length": 4,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 1389.1435900092295,
+        "p95_ttft_seconds": 0.15764250611537137,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.595959595959596,
+        "acceptance_rate": 0.398989898989899,
+        "position_survival_rate": [
+          0.7323232323232324,
+          0.4595959595959596,
+          0.23232323232323232,
+          0.1717171717171717,
+          null,
+          null,
+          null
+        ]
+      },
+      "observed_candidates": 3
+    },
+    {
+      "prompt_tokens": 90,
+      "output_tokens": 512,
+      "batch_size": 15,
+      "decision": "USE_DRAFT_LENGTH",
+      "relative_throughput_effect": 0.07367096120829641,
+      "target_only": null,
+      "best_dflash": {
+        "label": "dflash2-k6-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6.json",
+        "batch_size": 15,
+        "draft_length": 6,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 1252.8972876724142,
+        "p95_ttft_seconds": 0.16179550326196476,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.861878453038674,
+        "acceptance_rate": 0.31031307550644566,
+        "position_survival_rate": [
+          0.6855432060778405,
+          0.4300564708580004,
+          0.2872935251894912,
+          0.19886720152311257,
+          0.14909511179474874,
+          0.11044082355166573,
+          null
+        ]
+      },
+      "observed_candidates": 3
+    },
+    {
+      "prompt_tokens": 512,
+      "output_tokens": 512,
+      "batch_size": 12,
+      "decision": "DISABLE_DFLASH",
+      "relative_throughput_effect": -0.05213410066326607,
+      "target_only": {
+        "label": "target-only-prompt512",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt512.json",
+        "batch_size": 12,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 321.93439807997294,
+        "p95_ttft_seconds": 0.5501354800828266,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt512-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt512.json",
+        "batch_size": 12,
+        "draft_length": 6,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 305.15063776350365,
+        "p95_ttft_seconds": 0.5845453994465061,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.250563607085346,
+        "acceptance_rate": 0.2084272678475577,
+        "position_survival_rate": [
+          0.6011930690781958,
+          0.2970174013872405,
+          0.13336972847064055,
+          0.09335673245588443,
+          0.06963109010303706,
+          0.046484451557339344,
+          null
+        ]
+      },
+      "observed_candidates": 2
+    },
+    {
+      "prompt_tokens": 512,
+      "output_tokens": 512,
+      "batch_size": 15,
+      "decision": "ENABLE_DFLASH",
+      "relative_throughput_effect": 0.15379413683281706,
+      "target_only": {
+        "label": "target-only-prompt512",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt512.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 248.9710707563883,
+        "p95_ttft_seconds": 0.6602518703904934,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt512-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt512.json",
+        "batch_size": 15,
+        "draft_length": 6,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 287.26136167970924,
+        "p95_ttft_seconds": 0.704150587914046,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.603433658329801,
+        "acceptance_rate": 0.2672389430549668,
+        "position_survival_rate": [
+          0.5939304483436377,
+          0.37845747926277085,
+          0.25069350730560463,
+          0.176982685329116,
+          0.11470856776204696,
+          0.10869184754270389,
+          null
+        ]
+      },
+      "observed_candidates": 2
+    },
+    {
+      "prompt_tokens": 1024,
+      "output_tokens": 512,
+      "batch_size": 12,
+      "decision": "ENABLE_DFLASH",
+      "relative_throughput_effect": 0.3192941522307302,
+      "target_only": {
+        "label": "target-only-prompt1024",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt1024.json",
+        "batch_size": 12,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 142.988075553131,
+        "p95_ttft_seconds": 22.913317404303235,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt1024-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt1024.json",
+        "batch_size": 12,
+        "draft_length": 6,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 188.64333191597157,
+        "p95_ttft_seconds": 11.946964431577362,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.356550088915234,
+        "acceptance_rate": 0.22609168148587236,
+        "position_survival_rate": [
+          0.5488482507423534,
+          0.2968375971662889,
+          0.17330098735305954,
+          0.1304586708260539,
+          0.10464376247340917,
+          0.0868277789788751,
+          null
+        ]
+      },
+      "observed_candidates": 2
+    },
+    {
+      "prompt_tokens": 1024,
+      "output_tokens": 512,
+      "batch_size": 15,
+      "decision": "ENABLE_DFLASH",
+      "relative_throughput_effect": 0.32638126105311405,
+      "target_only": {
+        "label": "target-only-prompt1024",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt1024.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 177.33428240114685,
+        "p95_ttft_seconds": 23.135445357556456,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt1024-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt1024.json",
+        "batch_size": 15,
+        "draft_length": 6,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 235.21286911918222,
+        "p95_ttft_seconds": 22.15736109073041,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.3739237392373926,
+        "acceptance_rate": 0.22898728987289874,
+        "position_survival_rate": [
+          0.5730603979343252,
+          0.31683159828603263,
+          0.17352316889500535,
+          0.12825510325027484,
+          0.1007044995767029,
+          0.08360108426530294,
+          null
+        ]
+      },
+      "observed_candidates": 2
+    },
+    {
+      "prompt_tokens": 3200,
+      "output_tokens": 128,
+      "batch_size": 4,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": {
+        "label": "dflash2-k6-prompt3200",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt3200.json",
+        "batch_size": 4,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 226.70906049153112,
+        "p95_ttft_seconds": 1.28947605722351,
+        "prefill_gpu_forward_ms": 280.62267303466797,
+        "acceptance_length": 3.2392638036809815,
+        "acceptance_rate": 0.37321063394683024,
+        "position_survival_rate": [
+          0.6871165644171779,
+          0.4785276073619632,
+          0.36809815950920244,
+          0.3006134969325153,
+          0.2331288343558282,
+          0.17177914110429449,
+          null
+        ]
+      },
+      "observed_candidates": 1
+    },
+    {
+      "prompt_tokens": 3200,
+      "output_tokens": 128,
+      "batch_size": 15,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": {
+        "label": "target-only-prompt3200",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt3200.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 256.63829897442986,
+        "p95_ttft_seconds": 4.350606718834024,
+        "prefill_gpu_forward_ms": 358.56280517578125,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": null,
+      "observed_candidates": 1
+    },
+    {
+      "prompt_tokens": 3900,
+      "output_tokens": 128,
+      "batch_size": 4,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": {
+        "label": "dflash2-k6-prompt3900",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt3900.json",
+        "batch_size": 4,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 186.2909894444492,
+        "p95_ttft_seconds": 1.5722788500017486,
+        "prefill_gpu_forward_ms": 384.4478988647461,
+        "acceptance_length": 3.5337837837837838,
+        "acceptance_rate": 0.4222972972972973,
+        "position_survival_rate": [
+          0.7364864864864865,
+          0.581081081081081,
+          0.42567567567567566,
+          0.35135135135135137,
+          0.25675675675675674,
+          0.18243243243243243,
+          null
+        ]
+      },
+      "observed_candidates": 1
+    },
+    {
+      "prompt_tokens": 3900,
+      "output_tokens": 128,
+      "batch_size": 15,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": {
+        "label": "target-only-prompt3900",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt3900.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 223.54543026087833,
+        "p95_ttft_seconds": 5.4073090582154695,
+        "prefill_gpu_forward_ms": 367.8781433105469,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": null,
+      "observed_candidates": 1
+    },
+    {
+      "prompt_tokens": 4000,
+      "output_tokens": 128,
+      "batch_size": 1,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": null,
+      "observed_candidates": 2
+    },
+    {
+      "prompt_tokens": 4000,
+      "output_tokens": 128,
+      "batch_size": 4,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": {
+        "label": "dflash2-k6-prompt4000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt4000.json",
+        "batch_size": 4,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 195.42281544081126,
+        "p95_ttft_seconds": 1.6002119979879352,
+        "prefill_gpu_forward_ms": 385.7505874633789,
+        "acceptance_length": 3.606896551724138,
+        "acceptance_rate": 0.43448275862068964,
+        "position_survival_rate": [
+          0.7379310344827587,
+          0.5724137931034483,
+          0.46206896551724136,
+          0.3724137931034483,
+          0.2620689655172414,
+          0.2,
+          null
+        ]
+      },
+      "observed_candidates": 3
+    },
+    {
+      "prompt_tokens": 4000,
+      "output_tokens": 128,
+      "batch_size": 8,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": null,
+      "observed_candidates": 1
+    },
+    {
+      "prompt_tokens": 4000,
+      "output_tokens": 128,
+      "batch_size": 12,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": null,
+      "observed_candidates": 1
+    },
+    {
+      "prompt_tokens": 4000,
+      "output_tokens": 128,
+      "batch_size": 15,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": {
+        "label": "target-only-prompt4000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt4000.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 218.76260268653155,
+        "p95_ttft_seconds": 5.582982127950527,
+        "prefill_gpu_forward_ms": 369.66400146484375,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": null,
+      "observed_candidates": 2
+    },
+    {
+      "prompt_tokens": 16000,
+      "output_tokens": 64,
+      "batch_size": 1,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": null,
+      "observed_candidates": 2
+    },
+    {
+      "prompt_tokens": 16000,
+      "output_tokens": 64,
+      "batch_size": 2,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": {
+        "label": "dflash2-k6-prompt16000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt16000.json",
+        "batch_size": 2,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 29.05015882236062,
+        "p95_ttft_seconds": 3.9427790174726396,
+        "prefill_gpu_forward_ms": 1771.4272232055664,
+        "acceptance_length": 4.827586206896552,
+        "acceptance_rate": 0.6379310344827587,
+        "position_survival_rate": [
+          0.7586206896551724,
+          0.6896551724137931,
+          0.6551724137931034,
+          0.6551724137931034,
+          0.6206896551724138,
+          0.4482758620689655,
+          null
+        ]
+      },
+      "observed_candidates": 3
+    },
+    {
+      "prompt_tokens": 16000,
+      "output_tokens": 64,
+      "batch_size": 4,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": null,
+      "observed_candidates": 1
+    },
+    {
+      "prompt_tokens": 16000,
+      "output_tokens": 64,
+      "batch_size": 8,
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": {
+        "label": "target-only-prompt16000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt16000.json",
+        "batch_size": 8,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 29.033279741150956,
+        "p95_ttft_seconds": 16.130238123732852,
+        "prefill_gpu_forward_ms": 1893.4569396972656,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": null,
+      "observed_candidates": 2
+    }
+  ],
+  "system_envelope_decisions": [
+    {
+      "prompt_tokens": 90,
+      "output_tokens": 512,
+      "objective": "MAXIMUM_AGGREGATE_DECODE_TOKENS_PER_SECOND",
+      "decision": "INSUFFICIENT_EVIDENCE",
+      "relative_throughput_effect": null,
+      "target_only": null,
+      "best_dflash": {
+        "label": "dflash2-k4-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k4.json",
+        "batch_size": 12,
+        "draft_length": 4,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 1389.1435900092295,
+        "p95_ttft_seconds": 0.15764250611537137,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.595959595959596,
+        "acceptance_rate": 0.398989898989899,
+        "position_survival_rate": [
+          0.7323232323232324,
+          0.4595959595959596,
+          0.23232323232323232,
+          0.1717171717171717,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "prompt_tokens": 512,
+      "output_tokens": 512,
+      "objective": "MAXIMUM_AGGREGATE_DECODE_TOKENS_PER_SECOND",
+      "decision": "DISABLE_DFLASH",
+      "relative_throughput_effect": -0.05213410066326607,
+      "target_only": {
+        "label": "target-only-prompt512",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt512.json",
+        "batch_size": 12,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 321.93439807997294,
+        "p95_ttft_seconds": 0.5501354800828266,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt512-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt512.json",
+        "batch_size": 12,
+        "draft_length": 6,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 305.15063776350365,
+        "p95_ttft_seconds": 0.5845453994465061,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.250563607085346,
+        "acceptance_rate": 0.2084272678475577,
+        "position_survival_rate": [
+          0.6011930690781958,
+          0.2970174013872405,
+          0.13336972847064055,
+          0.09335673245588443,
+          0.06963109010303706,
+          0.046484451557339344,
+          null
+        ]
+      }
+    },
+    {
+      "prompt_tokens": 1024,
+      "output_tokens": 512,
+      "objective": "MAXIMUM_AGGREGATE_DECODE_TOKENS_PER_SECOND",
+      "decision": "ENABLE_DFLASH",
+      "relative_throughput_effect": 0.32638126105311405,
+      "target_only": {
+        "label": "target-only-prompt1024",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt1024.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 177.33428240114685,
+        "p95_ttft_seconds": 23.135445357556456,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt1024-selector-12-15",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt1024.json",
+        "batch_size": 15,
+        "draft_length": 6,
+        "selector_batches": [
+          12,
+          15
+        ],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 235.21286911918222,
+        "p95_ttft_seconds": 22.15736109073041,
+        "prefill_gpu_forward_ms": null,
+        "acceptance_length": 2.3739237392373926,
+        "acceptance_rate": 0.22898728987289874,
+        "position_survival_rate": [
+          0.5730603979343252,
+          0.31683159828603263,
+          0.17352316889500535,
+          0.12825510325027484,
+          0.1007044995767029,
+          0.08360108426530294,
+          null
+        ]
+      }
+    },
+    {
+      "prompt_tokens": 3200,
+      "output_tokens": 128,
+      "objective": "MAXIMUM_AGGREGATE_DECODE_TOKENS_PER_SECOND",
+      "decision": "DISABLE_DFLASH",
+      "relative_throughput_effect": -0.11662031194292144,
+      "target_only": {
+        "label": "target-only-prompt3200",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt3200.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 256.63829897442986,
+        "p95_ttft_seconds": 4.350606718834024,
+        "prefill_gpu_forward_ms": 358.56280517578125,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt3200",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt3200.json",
+        "batch_size": 4,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 226.70906049153112,
+        "p95_ttft_seconds": 1.28947605722351,
+        "prefill_gpu_forward_ms": 280.62267303466797,
+        "acceptance_length": 3.2392638036809815,
+        "acceptance_rate": 0.37321063394683024,
+        "position_survival_rate": [
+          0.6871165644171779,
+          0.4785276073619632,
+          0.36809815950920244,
+          0.3006134969325153,
+          0.2331288343558282,
+          0.17177914110429449,
+          null
+        ]
+      }
+    },
+    {
+      "prompt_tokens": 3900,
+      "output_tokens": 128,
+      "objective": "MAXIMUM_AGGREGATE_DECODE_TOKENS_PER_SECOND",
+      "decision": "DISABLE_DFLASH",
+      "relative_throughput_effect": -0.16665266104054588,
+      "target_only": {
+        "label": "target-only-prompt3900",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt3900.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 223.54543026087833,
+        "p95_ttft_seconds": 5.4073090582154695,
+        "prefill_gpu_forward_ms": 367.8781433105469,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt3900",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt3900.json",
+        "batch_size": 4,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 186.2909894444492,
+        "p95_ttft_seconds": 1.5722788500017486,
+        "prefill_gpu_forward_ms": 384.4478988647461,
+        "acceptance_length": 3.5337837837837838,
+        "acceptance_rate": 0.4222972972972973,
+        "position_survival_rate": [
+          0.7364864864864865,
+          0.581081081081081,
+          0.42567567567567566,
+          0.35135135135135137,
+          0.25675675675675674,
+          0.18243243243243243,
+          null
+        ]
+      }
+    },
+    {
+      "prompt_tokens": 4000,
+      "output_tokens": 128,
+      "objective": "MAXIMUM_AGGREGATE_DECODE_TOKENS_PER_SECOND",
+      "decision": "DISABLE_DFLASH",
+      "relative_throughput_effect": -0.10669002361049906,
+      "target_only": {
+        "label": "target-only-prompt4000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt4000.json",
+        "batch_size": 15,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 218.76260268653155,
+        "p95_ttft_seconds": 5.582982127950527,
+        "prefill_gpu_forward_ms": 369.66400146484375,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt4000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt4000.json",
+        "batch_size": 4,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 195.42281544081126,
+        "p95_ttft_seconds": 1.6002119979879352,
+        "prefill_gpu_forward_ms": 385.7505874633789,
+        "acceptance_length": 3.606896551724138,
+        "acceptance_rate": 0.43448275862068964,
+        "position_survival_rate": [
+          0.7379310344827587,
+          0.5724137931034483,
+          0.46206896551724136,
+          0.3724137931034483,
+          0.2620689655172414,
+          0.2,
+          null
+        ]
+      }
+    },
+    {
+      "prompt_tokens": 16000,
+      "output_tokens": 64,
+      "objective": "MAXIMUM_AGGREGATE_DECODE_TOKENS_PER_SECOND",
+      "decision": "KEEP_BASELINE",
+      "relative_throughput_effect": 0.0005813701159549378,
+      "target_only": {
+        "label": "target-only-prompt16000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/target-only-prompt16000.json",
+        "batch_size": 8,
+        "draft_length": null,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 29.033279741150956,
+        "p95_ttft_seconds": 16.130238123732852,
+        "prefill_gpu_forward_ms": 1893.4569396972656,
+        "acceptance_length": null,
+        "acceptance_rate": null,
+        "position_survival_rate": null
+      },
+      "best_dflash": {
+        "label": "dflash2-k6-prompt16000",
+        "artifact": "examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/dflash2-k6-prompt16000.json",
+        "batch_size": 2,
+        "draft_length": 6,
+        "selector_batches": [],
+        "successful_trials": 5,
+        "failed_trials": 0,
+        "aggregate_tokens_per_second": 29.05015882236062,
+        "p95_ttft_seconds": 3.9427790174726396,
+        "prefill_gpu_forward_ms": 1771.4272232055664,
+        "acceptance_length": 4.827586206896552,
+        "acceptance_rate": 0.6379310344827587,
+        "position_survival_rate": [
+          0.7586206896551724,
+          0.6896551724137931,
+          0.6551724137931034,
+          0.6551724137931034,
+          0.6206896551724138,
+          0.4482758620689655,
+          null
+        ]
+      }
+    }
+  ]
+}

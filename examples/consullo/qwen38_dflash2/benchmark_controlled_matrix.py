@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
-FORMAT_VERSION = 1
+FORMAT_VERSION = 2
 PROMPT = (
     "Write an indefinitely continuing numbered technical analysis of paged KV caches, "
     "speculative decoding, batching, and GPU memory movement. Each item must introduce "
@@ -94,6 +94,41 @@ def scrape_metrics(base_url, timeout_seconds):
     return snapshot
 
 
+def fetch_perf_metrics(base_url, timeout_seconds):
+    """Drain TensorRT-LLM per-request timing metrics."""
+    url = f"{base_url.rstrip('/')}/perf_metrics"
+    with urllib.request.urlopen(url, timeout=timeout_seconds) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def server_timing_summary(perf_metrics):
+    """Summarize isolated GPU prefill and server scheduling durations."""
+    prefill_gpu_ms = []
+    queue_seconds = []
+    scheduled_to_first_seconds = []
+    for entry in perf_metrics:
+        breakdown = entry.get("time_breakdown_metrics") or {}
+        prefill = breakdown.get("ctx_gpu_forward_time")
+        if prefill is not None:
+            prefill_gpu_ms.append(prefill)
+        timing = (entry.get("perf_metrics") or {}).get("timing_metrics") or {}
+        arrival = timing.get("arrival_time")
+        scheduled = timing.get("first_scheduled_time")
+        first_token = timing.get("first_token_time")
+        if arrival is not None and scheduled is not None:
+            queue_seconds.append(scheduled - arrival)
+        if scheduled is not None and first_token is not None:
+            scheduled_to_first_seconds.append(first_token - scheduled)
+    return {
+        "request_count": len(perf_metrics),
+        "prefill_gpu_forward_ms": summarize_values(prefill_gpu_ms),
+        "queue_seconds": summarize_values(queue_seconds),
+        "scheduled_to_first_token_seconds": summarize_values(
+            scheduled_to_first_seconds
+        ),
+    }
+
+
 def metric_delta(before, after):
     """Subtract cumulative metric snapshots."""
     keys = set(before) | set(after)
@@ -128,11 +163,12 @@ def speculation_summary(delta):
     }
 
 
-def request_once(base_url, model, output_tokens, timeout_seconds, barrier):
+def request_once(base_url, model, prompt, expected_prompt_tokens, output_tokens,
+                 timeout_seconds, barrier):
     """Submit one deterministic streaming request and measure user-visible latency."""
     body = {
         "model": model,
-        "messages": [{"role": "user", "content": PROMPT}],
+        "messages": [{"role": "user", "content": prompt}],
         "max_tokens": output_tokens,
         "min_tokens": output_tokens,
         "ignore_eos": True,
@@ -175,6 +211,12 @@ def request_once(base_url, model, output_tokens, timeout_seconds, barrier):
         raise RuntimeError(
             f"expected {output_tokens} completion tokens, received {completion_tokens}"
         )
+    prompt_tokens = usage.get("prompt_tokens", 0)
+    if (expected_prompt_tokens is not None and prompt_tokens
+            and prompt_tokens != expected_prompt_tokens):
+        raise RuntimeError(
+            f"expected {expected_prompt_tokens} prompt tokens, received {prompt_tokens}"
+        )
     ttft = first_token_at - started if first_token_at is not None else None
     elapsed = ended - started
     tpot = (
@@ -184,7 +226,7 @@ def request_once(base_url, model, output_tokens, timeout_seconds, barrier):
     return {
         "status": "SUCCESS",
         "error": None,
-        "prompt_tokens": usage.get("prompt_tokens", 0),
+        "prompt_tokens": prompt_tokens,
         "completion_tokens": completion_tokens,
         "usage_source": usage_source,
         "finish_reason": finish_reason,
@@ -209,13 +251,16 @@ def safe_request(*args):
 
 def run_batch(args, batch_size, trial, output_tokens, collect_metrics=True):
     """Run one synchronized batch and calculate client and server measurements."""
+    if collect_metrics:
+        fetch_perf_metrics(args.base_url, args.timeout_seconds)
     before = scrape_metrics(args.base_url, args.timeout_seconds) if collect_metrics else {}
     barrier = threading.Barrier(batch_size + 1)
     with ThreadPoolExecutor(max_workers=batch_size) as executor:
         futures = [
             executor.submit(
-                safe_request, args.base_url, args.model, output_tokens,
-                args.timeout_seconds, barrier
+                safe_request, args.base_url, args.model, args.prompt,
+                args.expected_prompt_tokens, output_tokens, args.timeout_seconds,
+                barrier
             )
             for _ in range(batch_size)
         ]
@@ -226,6 +271,8 @@ def run_batch(args, batch_size, trial, output_tokens, collect_metrics=True):
     if collect_metrics:
         time.sleep(0.25)
     after = scrape_metrics(args.base_url, args.timeout_seconds) if collect_metrics else {}
+    perf_metrics = (fetch_perf_metrics(args.base_url, args.timeout_seconds)
+                    if collect_metrics else [])
     delta = metric_delta(before, after)
     successful = [item for item in requests if item["status"] == "SUCCESS"]
     total_tokens = sum(item["completion_tokens"] for item in successful)
@@ -240,6 +287,8 @@ def run_batch(args, batch_size, trial, output_tokens, collect_metrics=True):
         "requests": requests,
         "metric_delta": delta,
         "speculation": speculation_summary(delta),
+        "server_perf_metrics": perf_metrics,
+        "server_timing_summary": server_timing_summary(perf_metrics),
     }
     for field in ("ttft_seconds", "end_to_end_seconds", "tpot_seconds",
                   "client_tokens_per_second"):
@@ -269,6 +318,9 @@ def summarize(batches, runs):
                 request[field] for run in selected for request in run["requests"]
                 if request.get(field) is not None
             ])
+        server_timings = [entry for run in selected
+                          for entry in run.get("server_perf_metrics", [])]
+        item["server_timing"] = server_timing_summary(server_timings)
         speculations = [run["speculation"] for run in selected if run["speculation"]]
         if speculations:
             item["acceptance_rate"] = summarize_values(
@@ -277,10 +329,14 @@ def summarize(batches, runs):
             item["acceptance_length"] = summarize_values(
                 [spec["acceptance_length"] for spec in speculations]
             )
-            item["position_survival_rate"] = [
-                statistics.mean(spec["position_survival_rate"][index]
-                                for spec in speculations)
+            position_values = [
+                [spec["position_survival_rate"][index] for spec in speculations
+                 if spec["position_survival_rate"][index] is not None]
                 for index in range(7)
+            ]
+            item["position_survival_rate"] = [
+                statistics.mean(values) if values else None
+                for values in position_values
             ]
         summary[str(batch_size)] = item
     return summary
@@ -311,7 +367,12 @@ def write_artifact(args, warmups, runs):
         "label": args.label,
         "base_url": public_endpoint(args.base_url),
         "model": args.model,
-        "prompt": PROMPT,
+        "prompt": args.prompt,
+        "expected_prompt_tokens": args.expected_prompt_tokens,
+        "policy": {
+            "draft_length": args.draft_length,
+            "selector_batches": args.selector_batches,
+        },
         "output_tokens_per_request": args.output_tokens,
         "warmup_tokens_per_request": args.warmup_tokens,
         "trials": args.trials,
@@ -330,17 +391,27 @@ def main():
     parser.add_argument("--label", required=True)
     parser.add_argument("--base-url", default="http://127.0.0.1:5057")
     parser.add_argument("--model", default="qwen3.8-27b")
+    parser.add_argument("--prompt-file", type=Path)
+    parser.add_argument("--expected-prompt-tokens", type=int)
     parser.add_argument("--batches", type=parse_batches,
                         default=parse_batches("1,8,12,15"))
     parser.add_argument("--output-tokens", type=int, default=512)
     parser.add_argument("--warmup-tokens", type=int, default=64)
     parser.add_argument("--trials", type=int, default=5)
     parser.add_argument("--timeout-seconds", type=int, default=1800)
+    parser.add_argument("--draft-length", type=int)
+    parser.add_argument("--selector-batches", type=parse_batches, default=[])
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
+    args.prompt = (args.prompt_file.read_text(encoding="utf-8")
+                   if args.prompt_file else PROMPT)
     if min(args.output_tokens, args.warmup_tokens, args.trials,
            args.timeout_seconds) <= 0:
         parser.error("token counts, trials, and timeout must be positive")
+    if args.expected_prompt_tokens is not None and args.expected_prompt_tokens <= 0:
+        parser.error("expected prompt tokens must be positive")
+    if args.draft_length is not None and args.draft_length <= 0:
+        parser.error("draft length must be positive")
 
     warmups = []
     runs = []

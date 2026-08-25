@@ -1,0 +1,29 @@
+{
+  "tokenizer": "Qwen3.8-27B-NVFP4",
+  "prompts": [
+    {
+      "path": "prompt-512.txt",
+      "chat_template_tokens": 512
+    },
+    {
+      "path": "prompt-1024.txt",
+      "chat_template_tokens": 1024
+    },
+    {
+      "path": "prompt-3200.txt",
+      "chat_template_tokens": 3200
+    },
+    {
+      "path": "prompt-3900.txt",
+      "chat_template_tokens": 3900
+    },
+    {
+      "path": "prompt-4000.txt",
+      "chat_template_tokens": 4000
+    },
+    {
+      "path": "prompt-16000.txt",
+      "chat_template_tokens": 16000
+    }
+  ]
+}

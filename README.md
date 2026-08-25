@@ -45,6 +45,19 @@ Each batch used synchronized OpenAI-compatible chat-completion requests with an 
 
 The same matrix exposed a request-shape optimization. Enabling DFlash's selector at batch 12 increased the median from 1,067.79 to **1,284.55 aggregate tok/s (+20.30%)**, raised accepted length from 2.265 to 2.768, and left TTFT essentially unchanged. Enabling it at batch 8 changed throughput by only +0.21%, so the production selector policy is `12,15`.
 
+### Production-context policy matrix
+
+Five-trial tests with exact prompts derived from production logs show that the short-context optimum is not universal. This table compares each profile at its best capacity-qualified concurrency on the RTX 5090; GPU prefill is the isolated TensorRT-LLM context-forward duration, while TTFT includes queueing and scheduling.
+
+| Input tokens | Target-only batch / aggregate tok/s | DFlash2 K6 batch / aggregate tok/s | Target GPU prefill p50 | DFlash GPU prefill p50 | Maximum-aggregate policy |
+|---:|---:|---:|---:|---:|---|
+| 3,200 | 15 / **256.638** | 4 / 226.709 | 358.56 ms | 280.62 ms | Target-only |
+| 3,900 | 15 / **223.545** | 4 / 186.291 | 367.88 ms | 384.45 ms | Target-only |
+| 4,000 | 15 / **218.763** | 4 / 195.423 | 369.66 ms | 385.75 ms | Target-only |
+| 16,000 | 8 / 29.033 | 2 / 29.050 | 1,893.46 ms | 1,771.43 ms | Keep target baseline; difference 0.06% |
+
+TensorRT-LLM selected its `nvfp4_gemm` kernel on the Blackwell SM120 GPU, confirming hardware-backed NVFP4 linear-layer compute during prefill and decode. The [complete request-shape experiment](examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-25-policy-learning/README.md) publishes TTFT p50/p95, isolated prefill p50/p95, acceptance, raw trials, capacity failures, exact prompts, and the effect-thresholded policy learner.
+
 Latency percentiles are calculated across the individual client requests from all five trials at a given batch size. Acceptance and aggregate-throughput percentiles are calculated across the five trial-level observations. Higher p95 throughput or acceptance is favorable; higher p95 latency is unfavorable.
 
 Aggregate decode throughput is calculated as the sum of completion tokens returned by every request divided by wall-clock time for the entire concurrent batch. It is not a per-request rate and does not include prompt tokens. “Batch” here describes concurrently submitted HTTP requests; TensorRT-LLM may schedule those requests through different internal microbatch shapes during execution.

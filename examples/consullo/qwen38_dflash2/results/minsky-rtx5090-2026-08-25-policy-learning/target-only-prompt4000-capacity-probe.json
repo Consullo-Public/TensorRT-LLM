@@ -1,0 +1,1617 @@
+{
+  "format_version": 2,
+  "created_at": "2026-08-25T18:24:55.360206+00:00",
+  "label": "target-only-prompt4000-capacity-probe",
+  "base_url": "http://127.0.0.1:5057",
+  "model": "qwen3.8-27b",
+  "prompt": "Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not conclude or summarize. Write an indefinitely continuing numbered technical analysis of paged KV caches, speculative decoding, batching, and GPU memory movement. Each item must introduce a new implementation detail. Do not",
+  "expected_prompt_tokens": 4000,
+  "policy": {
+    "draft_length": null,
+    "selector_batches": []
+  },
+  "output_tokens_per_request": 128,
+  "warmup_tokens_per_request": 16,
+  "trials": 1,
+  "warmups": [
+    {
+      "batch_size": 1,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 0.8304664460010827,
+      "completion_tokens": 16,
+      "aggregate_tokens_per_second": 19.266281108700134,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 0.573998435982503,
+          "mean": 0.573998435982503,
+          "minimum": 0.573998435982503,
+          "maximum": 0.573998435982503,
+          "p95": 0.573998435982503
+        },
+        "end_to_end_seconds": {
+          "median": 0.830303588998504,
+          "mean": 0.830303588998504,
+          "minimum": 0.830303588998504,
+          "maximum": 0.830303588998504,
+          "p95": 0.830303588998504
+        },
+        "tpot_seconds": {
+          "median": 0.017087010201066732,
+          "mean": 0.017087010201066732,
+          "minimum": 0.017087010201066732,
+          "maximum": 0.017087010201066732,
+          "p95": 0.017087010201066732
+        },
+        "client_tokens_per_second": {
+          "median": 19.27006002623557,
+          "mean": 19.27006002623557,
+          "minimum": 19.27006002623557,
+          "maximum": 19.27006002623557,
+          "p95": 19.27006002623557
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.573998435982503,
+          "end_to_end_seconds": 0.830303588998504,
+          "tpot_seconds": 0.017087010201066732,
+          "client_tokens_per_second": 19.27006002623557
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    },
+    {
+      "batch_size": 4,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 1.8908739020116627,
+      "completion_tokens": 64,
+      "aggregate_tokens_per_second": 33.84678371831759,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 1.1218862360110506,
+          "mean": 1.089925921522081,
+          "minimum": 0.5838144960580394,
+          "maximum": 1.532116718008183,
+          "p95": 1.4972467221552506
+        },
+        "end_to_end_seconds": {
+          "median": 1.8571283079800196,
+          "mean": 1.8571676097635645,
+          "minimum": 1.823823324055411,
+          "maximum": 1.890590499038808,
+          "p95": 1.8873008565220517
+        },
+        "tpot_seconds": {
+          "median": 0.0490161381312646,
+          "mean": 0.05114944588276558,
+          "minimum": 0.02389825206870834,
+          "maximum": 0.08266725519982478,
+          "p95": 0.07928191365984578
+        },
+        "client_tokens_per_second": {
+          "median": 8.61578428230758,
+          "mean": 8.616828122442922,
+          "minimum": 8.462964353271918,
+          "maximum": 8.772779571884612,
+          "p95": 8.757254819677689
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.299650078988634,
+          "end_to_end_seconds": 1.8686595489270985,
+          "tpot_seconds": 0.037933964662564296,
+          "client_tokens_per_second": 8.562287340776702
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.532116718008183,
+          "end_to_end_seconds": 1.890590499038808,
+          "tpot_seconds": 0.02389825206870834,
+          "client_tokens_per_second": 8.462964353271918
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.5838144960580394,
+          "end_to_end_seconds": 1.823823324055411,
+          "tpot_seconds": 0.08266725519982478,
+          "client_tokens_per_second": 8.772779571884612
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9441223930334672,
+          "end_to_end_seconds": 1.8455970670329407,
+          "tpot_seconds": 0.0600983115999649,
+          "client_tokens_per_second": 8.669281223838457
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    },
+    {
+      "batch_size": 8,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 3.418046906008385,
+      "completion_tokens": 128,
+      "aggregate_tokens_per_second": 37.448286556570146,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 1.8621571590192616,
+          "mean": 1.8400094838580117,
+          "minimum": 0.5897888590116054,
+          "maximum": 2.9720760039053857,
+          "p95": 2.896993757871678
+        },
+        "end_to_end_seconds": {
+          "median": 3.3239641420077533,
+          "mean": 3.3136790209828177,
+          "minimum": 3.174991582054645,
+          "maximum": 3.4176559379557148,
+          "p95": 3.409842892148299
+        },
+        "tpot_seconds": {
+          "median": 0.09745379886589944,
+          "mean": 0.09824463580832041,
+          "minimum": 0.0297053289366886,
+          "maximum": 0.1723468482028693,
+          "p95": 0.16508077108534053
+        },
+        "client_tokens_per_second": {
+          "median": 4.813809917503333,
+          "mean": 4.831281887430716,
+          "minimum": 4.681571313925318,
+          "maximum": 5.039383439765172,
+          "p95": 5.011481382265498
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.7575553009519354,
+          "end_to_end_seconds": 3.3953329499345273,
+          "tpot_seconds": 0.04251850993217279,
+          "client_tokens_per_second": 4.7123508168200505
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.0435565230436623,
+          "end_to_end_seconds": 3.349326363997534,
+          "tpot_seconds": 0.0870513227302581,
+          "client_tokens_per_second": 4.777080003903669
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9522260420490056,
+          "end_to_end_seconds": 3.226025460055098,
+          "tpot_seconds": 0.15158662786707283,
+          "client_tokens_per_second": 4.95966327548039
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.9720760039053857,
+          "end_to_end_seconds": 3.4176559379557148,
+          "tpot_seconds": 0.0297053289366886,
+          "client_tokens_per_second": 4.681571313925318
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.3155188149539754,
+          "end_to_end_seconds": 3.2760422219289467,
+          "tpot_seconds": 0.1307015604649981,
+          "client_tokens_per_second": 4.883941938507476
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.6807577949948609,
+          "end_to_end_seconds": 3.2986019200179726,
+          "tpot_seconds": 0.10785627500154078,
+          "client_tokens_per_second": 4.8505398311029975
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.4085965319536626,
+          "end_to_end_seconds": 3.371455731918104,
+          "tpot_seconds": 0.06419061333096275,
+          "client_tokens_per_second": 4.74572447994066
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.5897888590116054,
+          "end_to_end_seconds": 3.174991582054645,
+          "tpot_seconds": 0.1723468482028693,
+          "client_tokens_per_second": 5.039383439765172
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    },
+    {
+      "batch_size": 12,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 4.997637231950648,
+      "completion_tokens": 192,
+      "aggregate_tokens_per_second": 38.41815463765858,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 2.605635608022567,
+          "mean": 2.5903427079222943,
+          "minimum": 0.6031309539685026,
+          "maximum": 4.431623189942911,
+          "p95": 4.3213487531815185
+        },
+        "end_to_end_seconds": {
+          "median": 4.828570347977802,
+          "mean": 4.8079134876704,
+          "minimum": 4.559101618942805,
+          "maximum": 4.997248244006187,
+          "p95": 4.985184770560591
+        },
+        "tpot_seconds": {
+          "median": 0.148195649330349,
+          "mean": 0.14783805198320704,
+          "minimum": 0.0377083369375517,
+          "maximum": 0.26373137766495347,
+          "p95": 0.2525747912020112
+        },
+        "client_tokens_per_second": {
+          "median": 3.313699752312769,
+          "mean": 3.330701544972352,
+          "minimum": 3.201762093606369,
+          "maximum": 3.509463341093544,
+          "p95": 3.4851163193738164
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.4229901320068166,
+          "end_to_end_seconds": 4.8034700700081885,
+          "tpot_seconds": 0.1586986625334248,
+          "client_tokens_per_second": 3.3309253033344546
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.6932413540780544,
+          "end_to_end_seconds": 4.70082122203894,
+          "tpot_seconds": 0.20050532453072567,
+          "client_tokens_per_second": 3.403660604021044
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.3285477668978274,
+          "end_to_end_seconds": 4.677743120933883,
+          "tpot_seconds": 0.22327969026907038,
+          "client_tokens_per_second": 3.4204528949861825
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9656432709889486,
+          "end_to_end_seconds": 4.617343396064825,
+          "tpot_seconds": 0.24344667500505845,
+          "client_tokens_per_second": 3.465196028875858
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.8877800829941407,
+          "end_to_end_seconds": 4.951431469060481,
+          "tpot_seconds": 0.07091009240442266,
+          "client_tokens_per_second": 3.2313887610032808
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.788281084038317,
+          "end_to_end_seconds": 4.853670625947416,
+          "tpot_seconds": 0.13769263612727325,
+          "client_tokens_per_second": 3.2964742012910833
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.520331255043857,
+          "end_to_end_seconds": 4.928879023063928,
+          "tpot_seconds": 0.0939031845346714,
+          "client_tokens_per_second": 3.246174216313785
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.0578611160162836,
+          "end_to_end_seconds": 4.752934427000582,
+          "tpot_seconds": 0.1796715540656199,
+          "client_tokens_per_second": 3.366341414076075
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.6031309539685026,
+          "end_to_end_seconds": 4.559101618942805,
+          "tpot_seconds": 0.26373137766495347,
+          "client_tokens_per_second": 3.509463341093544
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.153558075078763,
+          "end_to_end_seconds": 4.87700397905428,
+          "tpot_seconds": 0.11489639359836777,
+          "client_tokens_per_second": 3.280702674985848
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.431623189942911,
+          "end_to_end_seconds": 4.997248244006187,
+          "tpot_seconds": 0.0377083369375517,
+          "client_tokens_per_second": 3.201762093606369
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.231124214013107,
+          "end_to_end_seconds": 4.975314655923285,
+          "tpot_seconds": 0.04961269612734517,
+          "client_tokens_per_second": 3.2158770060807
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    },
+    {
+      "batch_size": 15,
+      "trial": 0,
+      "status": "SUCCESS",
+      "wall_seconds": 6.15258214098867,
+      "completion_tokens": 240,
+      "aggregate_tokens_per_second": 39.008012327233054,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 3.1510911729419604,
+          "mean": 3.1414595913452406,
+          "minimum": 0.5921765899984166,
+          "maximum": 5.542102557956241,
+          "p95": 5.401261085248552
+        },
+        "end_to_end_seconds": {
+          "median": 5.91099966596812,
+          "mean": 5.90230245993007,
+          "minimum": 5.598538708058186,
+          "maximum": 6.151739091961645,
+          "p95": 6.136483740038239
+        },
+        "tpot_seconds": {
+          "median": 0.1839938995350773,
+          "mean": 0.18405619123898861,
+          "minimum": 0.04064243560036023,
+          "maximum": 0.33375747453731797,
+          "p95": 0.319359815409407
+        },
+        "client_tokens_per_second": {
+          "median": 2.7068179502898815,
+          "mean": 2.713295304025972,
+          "minimum": 2.600890538564433,
+          "maximum": 2.8578886088562006,
+          "p95": 2.838378446653938
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.7835420719347894,
+          "end_to_end_seconds": 5.862107352935709,
+          "tpot_seconds": 0.20523768540006132,
+          "client_tokens_per_second": 2.7293938914283604
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.6855085759889334,
+          "end_to_end_seconds": 5.729900885955431,
+          "tpot_seconds": 0.26962615399776646,
+          "client_tokens_per_second": 2.792369417631224
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 5.340900454088114,
+          "end_to_end_seconds": 6.129945732071064,
+          "tpot_seconds": 0.052603018532196684,
+          "client_tokens_per_second": 2.6101372996322167
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.3205185499973595,
+          "end_to_end_seconds": 5.676288075977936,
+          "tpot_seconds": 0.29038463506537177,
+          "client_tokens_per_second": 2.818743479160622
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.5921765899984166,
+          "end_to_end_seconds": 5.598538708058186,
+          "tpot_seconds": 0.33375747453731797,
+          "client_tokens_per_second": 2.8578886088562006
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.050738582969643,
+          "end_to_end_seconds": 5.783563817967661,
+          "tpot_seconds": 0.2488550156665345,
+          "client_tokens_per_second": 2.766460352748798
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.8880875310860574,
+          "end_to_end_seconds": 6.010472220019437,
+          "tpot_seconds": 0.14149231259555867,
+          "client_tokens_per_second": 2.6620204560147283
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.1510911729419604,
+          "end_to_end_seconds": 5.91099966596812,
+          "tpot_seconds": 0.1839938995350773,
+          "client_tokens_per_second": 2.7068179502898815
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.624710288015194,
+          "end_to_end_seconds": 6.085175547981635,
+          "tpot_seconds": 0.09736435066442936,
+          "client_tokens_per_second": 2.6293407435561935
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9558355370536447,
+          "end_to_end_seconds": 5.653676388086751,
+          "tpot_seconds": 0.31318939006887375,
+          "client_tokens_per_second": 2.8300169485672537
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 5.542102557956241,
+          "end_to_end_seconds": 6.151739091961645,
+          "tpot_seconds": 0.04064243560036023,
+          "client_tokens_per_second": 2.600890538564433
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.2557756550377235,
+          "end_to_end_seconds": 6.032630885951221,
+          "tpot_seconds": 0.11845701539423317,
+          "client_tokens_per_second": 2.6522424962648996
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.519811277044937,
+          "end_to_end_seconds": 5.961615017964505,
+          "tpot_seconds": 0.16278691606130452,
+          "client_tokens_per_second": 2.6838365026567814
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.993688632035628,
+          "end_to_end_seconds": 6.107373137027025,
+          "tpot_seconds": 0.07424563366609314,
+          "client_tokens_per_second": 2.619784257653619
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 16,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.4174063940299675,
+          "end_to_end_seconds": 5.84051037102472,
+          "tpot_seconds": 0.22820693179965018,
+          "client_tokens_per_second": 2.7394866173643644
+        }
+      ],
+      "metric_delta": {},
+      "speculation": null
+    }
+  ],
+  "runs": [
+    {
+      "batch_size": 1,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 3.2270183389773592,
+      "completion_tokens": 128,
+      "aggregate_tokens_per_second": 39.665098414210796,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 0.46220522199291736,
+          "mean": 0.46220522199291736,
+          "minimum": 0.46220522199291736,
+          "maximum": 0.46220522199291736,
+          "p95": 0.46220522199291736
+        },
+        "end_to_end_seconds": {
+          "median": 3.2268795130075887,
+          "mean": 3.2268795130075887,
+          "minimum": 3.2268795130075887,
+          "maximum": 3.2268795130075887,
+          "p95": 3.2268795130075887
+        },
+        "tpot_seconds": {
+          "median": 0.021769088905627332,
+          "mean": 0.021769088905627332,
+          "minimum": 0.021769088905627332,
+          "maximum": 0.021769088905627332,
+          "p95": 0.021769088905627332
+        },
+        "client_tokens_per_second": {
+          "median": 39.66680487574157,
+          "mean": 39.66680487574157,
+          "minimum": 39.66680487574157,
+          "maximum": 39.66680487574157,
+          "p95": 39.66680487574157
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.46220522199291736,
+          "end_to_end_seconds": 3.2268795130075887,
+          "tpot_seconds": 0.021769088905627332,
+          "client_tokens_per_second": 39.66680487574157
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 128.0,
+        "trtllm_num_requests_completed_total": 2.0,
+        "trtllm_request_success_total[length]": 1.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 4,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 4.343677673954517,
+      "completion_tokens": 512,
+      "aggregate_tokens_per_second": 117.8724662444558,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 1.1262596654705703,
+          "mean": 1.093868736497825,
+          "minimum": 0.586903362069279,
+          "maximum": 1.5360522529808804,
+          "p95": 1.5012350659817457
+        },
+        "end_to_end_seconds": {
+          "median": 4.309471099986695,
+          "mean": 4.309502909251023,
+          "minimum": 4.275806121062487,
+          "maximum": 4.3432633159682155,
+          "p95": 4.339898293529404
+        },
+        "tpot_seconds": {
+          "median": 0.025064656964693892,
+          "mean": 0.025319954116166915,
+          "minimum": 0.02210402411801051,
+          "maximum": 0.02904647841726936,
+          "p95": 0.028645645287327878
+        },
+        "client_tokens_per_second": {
+          "median": 29.7022270905469,
+          "mean": 29.70281441063163,
+          "minimum": 29.47092789180013,
+          "maximum": 29.93587556963259,
+          "p95": 29.91257149064187
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.5360522529808804,
+          "end_to_end_seconds": 4.3432633159682155,
+          "tpot_seconds": 0.02210402411801051,
+          "client_tokens_per_second": 29.47092789180013
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9485816579544917,
+          "end_to_end_seconds": 4.298112366930582,
+          "tpot_seconds": 0.026374257550992833,
+          "client_tokens_per_second": 29.780515043027798
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.303937672986649,
+          "end_to_end_seconds": 4.320829833042808,
+          "tpot_seconds": 0.02375505637839495,
+          "client_tokens_per_second": 29.623939138065996
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.586903362069279,
+          "end_to_end_seconds": 4.275806121062487,
+          "tpot_seconds": 0.02904647841726936,
+          "client_tokens_per_second": 29.93587556963259
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 512.0,
+        "trtllm_num_requests_completed_total": 4.0,
+        "trtllm_request_success_total[length]": 4.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 8,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 5.922650404041633,
+      "completion_tokens": 1024,
+      "aggregate_tokens_per_second": 172.8955670422856,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 1.8657932170317508,
+          "mean": 1.8441721682465868,
+          "minimum": 0.594660562928766,
+          "maximum": 2.975647663930431,
+          "p95": 2.9006389686546754
+        },
+        "end_to_end_seconds": {
+          "median": 5.830555899068713,
+          "mean": 5.819935103383614,
+          "minimum": 5.681497954996303,
+          "maximum": 5.922121499897912,
+          "p95": 5.914452503656503
+        },
+        "tpot_seconds": {
+          "median": 0.03121860379556663,
+          "mean": 0.031305219961708874,
+          "minimum": 0.02320058138557072,
+          "maximum": 0.04005383773281525,
+          "p95": 0.03919559642140878
+        },
+        "client_tokens_per_second": {
+          "median": 21.953697671909495,
+          "mean": 21.997447812341264,
+          "minimum": 21.61387604124747,
+          "maximum": 22.52926974785531,
+          "p95": 22.459367853571944
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.975647663930431,
+          "end_to_end_seconds": 5.922121499897912,
+          "tpot_seconds": 0.02320058138557072,
+          "client_tokens_per_second": 21.61387604124747
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9568959400057793,
+          "end_to_end_seconds": 5.732314341934398,
+          "tpot_seconds": 0.03760171970022534,
+          "client_tokens_per_second": 22.32955004990284
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.3199152320157737,
+          "end_to_end_seconds": 5.783554618014023,
+          "tpot_seconds": 0.03514676681888385,
+          "client_tokens_per_second": 22.131718027062238
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.594660562928766,
+          "end_to_end_seconds": 5.681497954996303,
+          "tpot_seconds": 0.04005383773281525,
+          "client_tokens_per_second": 22.52926974785531
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.0479635380906984,
+          "end_to_end_seconds": 5.855063246097416,
+          "tpot_seconds": 0.029977163055171,
+          "client_tokens_per_second": 21.861420555160706
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.413334407028742,
+          "end_to_end_seconds": 5.878670532023534,
+          "tpot_seconds": 0.027286111220431432,
+          "client_tokens_per_second": 21.773630500762273
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.6836228959728032,
+          "end_to_end_seconds": 5.806048552040011,
+          "tpot_seconds": 0.03246004453596226,
+          "client_tokens_per_second": 22.04597478865828
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.7613371059997007,
+          "end_to_end_seconds": 5.900210082065314,
+          "tpot_seconds": 0.02471553524461113,
+          "client_tokens_per_second": 21.694142788080992
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 1024.0,
+        "trtllm_num_requests_completed_total": 8.0,
+        "trtllm_request_success_total[length]": 8.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 12,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 7.523347144946456,
+      "completion_tokens": 1536,
+      "aggregate_tokens_per_second": 204.16444574563516,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 2.5985026420094073,
+          "mean": 2.58296357789853,
+          "minimum": 0.5939157539978623,
+          "maximum": 4.425234530935995,
+          "p95": 4.315146627230569
+        },
+        "end_to_end_seconds": {
+          "median": 7.358500905043911,
+          "mean": 7.337598833876352,
+          "minimum": 7.0982050019083545,
+          "maximum": 7.522240854916163,
+          "p95": 7.510498293931596
+        },
+        "tpot_seconds": {
+          "median": 0.03748030128373625,
+          "mean": 0.037438072881715134,
+          "minimum": 0.024385876566772973,
+          "maximum": 0.05121487596779915,
+          "p95": 0.049877681019101804
+        },
+        "client_tokens_per_second": {
+          "median": 17.395052685156436,
+          "mean": 17.450499811990213,
+          "minimum": 17.016206004138457,
+          "maximum": 18.03272798765141,
+          "p95": 17.957086202449755
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.4152397820726037,
+          "end_to_end_seconds": 7.333219364052638,
+          "tpot_seconds": 0.03872424867700815,
+          "client_tokens_per_second": 17.454816724487284
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9572382799815387,
+          "end_to_end_seconds": 7.152757057920098,
+          "tpot_seconds": 0.04878361242471307,
+          "client_tokens_per_second": 17.89519746910295
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.3201210550032556,
+          "end_to_end_seconds": 7.206797298975289,
+          "tpot_seconds": 0.04635178144859869,
+          "client_tokens_per_second": 17.76101015331733
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.781765501946211,
+          "end_to_end_seconds": 7.383782446035184,
+          "tpot_seconds": 0.036236353890464354,
+          "client_tokens_per_second": 17.335288645825585
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.513670536922291,
+          "end_to_end_seconds": 7.4560295139672235,
+          "tpot_seconds": 0.03104219666964514,
+          "client_tokens_per_second": 17.16731401883808
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.5939157539978623,
+          "end_to_end_seconds": 7.0982050019083545,
+          "tpot_seconds": 0.05121487596779915,
+          "client_tokens_per_second": 18.03272798765141
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.881303114001639,
+          "end_to_end_seconds": 7.478745606960729,
+          "tpot_seconds": 0.028326318842197554,
+          "client_tokens_per_second": 17.11516967242019
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.049670105916448,
+          "end_to_end_seconds": 7.282110367901623,
+          "tpot_seconds": 0.041200317023505316,
+          "client_tokens_per_second": 17.57732216806319
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.22507470601704,
+          "end_to_end_seconds": 7.500890744035132,
+          "tpot_seconds": 0.025793827071008604,
+          "client_tokens_per_second": 17.064639969831358
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.425234530935995,
+          "end_to_end_seconds": 7.522240854916163,
+          "tpot_seconds": 0.024385876566772973,
+          "client_tokens_per_second": 17.016206004138457
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.6843841429799795,
+          "end_to_end_seconds": 7.2303342398954555,
+          "tpot_seconds": 0.04366889840090926,
+          "client_tokens_per_second": 17.70319265376738
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.1479454250074923,
+          "end_to_end_seconds": 7.406073509948328,
+          "tpot_seconds": 0.03352856759795934,
+          "client_tokens_per_second": 17.283112276439322
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 1536.0,
+        "trtllm_num_requests_completed_total": 24.0,
+        "trtllm_request_success_total[length]": 12.0
+      },
+      "speculation": null
+    },
+    {
+      "batch_size": 15,
+      "trial": 1,
+      "status": "SUCCESS",
+      "wall_seconds": 8.713776336051524,
+      "completion_tokens": 1920,
+      "aggregate_tokens_per_second": 220.34074848310948,
+      "request_summary": {
+        "ttft_seconds": {
+          "median": 3.1533070569857955,
+          "mean": 3.1426675795267025,
+          "minimum": 0.5917229109909385,
+          "maximum": 5.543020918034017,
+          "p95": 5.402682822174392
+        },
+        "end_to_end_seconds": {
+          "median": 8.468624487984926,
+          "mean": 8.460825846709001,
+          "minimum": 8.15185957599897,
+          "maximum": 8.712983509991318,
+          "p95": 8.697141237335746
+        },
+        "tpot_seconds": {
+          "median": 0.04185289315747347,
+          "mean": 0.041875261946317306,
+          "minimum": 0.02496033536974253,
+          "maximum": 0.05952863515754355,
+          "p95": 0.05783356436139603
+        },
+        "client_tokens_per_second": {
+          "median": 15.114615151681743,
+          "mean": 15.135517370583301,
+          "minimum": 14.69071987261543,
+          "maximum": 15.701938779326218,
+          "p95": 15.626491239820197
+        }
+      },
+      "requests": [
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.9556004269979894,
+          "end_to_end_seconds": 8.208202818990685,
+          "tpot_seconds": 0.05710710544876138,
+          "client_tokens_per_second": 15.594156580031902
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.5215696890372783,
+          "end_to_end_seconds": 8.524418154964224,
+          "tpot_seconds": 0.03939250760572398,
+          "client_tokens_per_second": 15.015687601558913
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.626909336075187,
+          "end_to_end_seconds": 8.645841752062552,
+          "tpot_seconds": 0.03164513713375878,
+          "client_tokens_per_second": 14.80480486118825
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.259080636082217,
+          "end_to_end_seconds": 8.596625456004404,
+          "tpot_seconds": 0.03415389621985974,
+          "client_tokens_per_second": 14.889563428705278
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.320036586956121,
+          "end_to_end_seconds": 8.230845785932615,
+          "tpot_seconds": 0.05441582046438184,
+          "client_tokens_per_second": 15.551257225444013
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 4.996123426943086,
+          "end_to_end_seconds": 8.66812021296937,
+          "tpot_seconds": 0.028913360519892,
+          "client_tokens_per_second": 14.766754135283508
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.0514512619702145,
+          "end_to_end_seconds": 8.341372053953819,
+          "tpot_seconds": 0.04952693536994964,
+          "client_tokens_per_second": 15.345197309515509
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.1533070569857955,
+          "end_to_end_seconds": 8.468624487984926,
+          "tpot_seconds": 0.04185289315747347,
+          "client_tokens_per_second": 15.114615151681743
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.417997987009585,
+          "end_to_end_seconds": 8.39478769293055,
+          "tpot_seconds": 0.04706133626709421,
+          "client_tokens_per_second": 15.247556541279996
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 5.543020918034017,
+          "end_to_end_seconds": 8.712983509991318,
+          "tpot_seconds": 0.02496033536974253,
+          "client_tokens_per_second": 14.69071987261543
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 2.7855840689735487,
+          "end_to_end_seconds": 8.417831889004447,
+          "tpot_seconds": 0.04434840803173935,
+          "client_tokens_per_second": 15.205815664624565
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 0.5917229109909385,
+          "end_to_end_seconds": 8.15185957599897,
+          "tpot_seconds": 0.05952863515754355,
+          "client_tokens_per_second": 15.701938779326218
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 5.342537923948839,
+          "end_to_end_seconds": 8.690351691911928,
+          "tpot_seconds": 0.026360738330418024,
+          "client_tokens_per_second": 14.728978128598527
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 1.6853355469647795,
+          "end_to_end_seconds": 8.285778564983048,
+          "tpot_seconds": 0.05197199226786038,
+          "client_tokens_per_second": 15.448156017703315
+        },
+        {
+          "status": "SUCCESS",
+          "error": null,
+          "prompt_tokens": 4000,
+          "completion_tokens": 128,
+          "usage_source": "server",
+          "finish_reason": "length",
+          "ttft_seconds": 3.8897359159309417,
+          "end_to_end_seconds": 8.574744052952155,
+          "tpot_seconds": 0.03688982785056074,
+          "client_tokens_per_second": 14.927559261192354
+        }
+      ],
+      "metric_delta": {
+        "trtllm_generation_tokens_total": 1920.0,
+        "trtllm_num_requests_completed_total": 11.0,
+        "trtllm_request_success_total[length]": 15.0
+      },
+      "speculation": null
+    }
+  ],
+  "summary": {
+    "1": {
+      "successful_trials": 1,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": 39.665098414210796,
+        "mean": 39.665098414210796,
+        "minimum": 39.665098414210796,
+        "maximum": 39.665098414210796,
+        "p95": 39.665098414210796
+      },
+      "ttft_seconds": {
+        "median": 0.46220522199291736,
+        "mean": 0.46220522199291736,
+        "minimum": 0.46220522199291736,
+        "maximum": 0.46220522199291736,
+        "p95": 0.46220522199291736
+      },
+      "end_to_end_seconds": {
+        "median": 3.2268795130075887,
+        "mean": 3.2268795130075887,
+        "minimum": 3.2268795130075887,
+        "maximum": 3.2268795130075887,
+        "p95": 3.2268795130075887
+      },
+      "tpot_seconds": {
+        "median": 0.021769088905627332,
+        "mean": 0.021769088905627332,
+        "minimum": 0.021769088905627332,
+        "maximum": 0.021769088905627332,
+        "p95": 0.021769088905627332
+      },
+      "client_tokens_per_second": {
+        "median": 39.66680487574157,
+        "mean": 39.66680487574157,
+        "minimum": 39.66680487574157,
+        "maximum": 39.66680487574157,
+        "p95": 39.66680487574157
+      }
+    },
+    "4": {
+      "successful_trials": 1,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": 117.8724662444558,
+        "mean": 117.8724662444558,
+        "minimum": 117.8724662444558,
+        "maximum": 117.8724662444558,
+        "p95": 117.8724662444558
+      },
+      "ttft_seconds": {
+        "median": 1.1262596654705703,
+        "mean": 1.093868736497825,
+        "minimum": 0.586903362069279,
+        "maximum": 1.5360522529808804,
+        "p95": 1.5012350659817457
+      },
+      "end_to_end_seconds": {
+        "median": 4.309471099986695,
+        "mean": 4.309502909251023,
+        "minimum": 4.275806121062487,
+        "maximum": 4.3432633159682155,
+        "p95": 4.339898293529404
+      },
+      "tpot_seconds": {
+        "median": 0.025064656964693892,
+        "mean": 0.025319954116166915,
+        "minimum": 0.02210402411801051,
+        "maximum": 0.02904647841726936,
+        "p95": 0.028645645287327878
+      },
+      "client_tokens_per_second": {
+        "median": 29.7022270905469,
+        "mean": 29.70281441063163,
+        "minimum": 29.47092789180013,
+        "maximum": 29.93587556963259,
+        "p95": 29.91257149064187
+      }
+    },
+    "8": {
+      "successful_trials": 1,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": 172.8955670422856,
+        "mean": 172.8955670422856,
+        "minimum": 172.8955670422856,
+        "maximum": 172.8955670422856,
+        "p95": 172.8955670422856
+      },
+      "ttft_seconds": {
+        "median": 1.8657932170317508,
+        "mean": 1.8441721682465868,
+        "minimum": 0.594660562928766,
+        "maximum": 2.975647663930431,
+        "p95": 2.9006389686546754
+      },
+      "end_to_end_seconds": {
+        "median": 5.830555899068713,
+        "mean": 5.819935103383614,
+        "minimum": 5.681497954996303,
+        "maximum": 5.922121499897912,
+        "p95": 5.914452503656503
+      },
+      "tpot_seconds": {
+        "median": 0.03121860379556663,
+        "mean": 0.031305219961708874,
+        "minimum": 0.02320058138557072,
+        "maximum": 0.04005383773281525,
+        "p95": 0.03919559642140878
+      },
+      "client_tokens_per_second": {
+        "median": 21.953697671909495,
+        "mean": 21.997447812341264,
+        "minimum": 21.61387604124747,
+        "maximum": 22.52926974785531,
+        "p95": 22.459367853571944
+      }
+    },
+    "12": {
+      "successful_trials": 1,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": 204.16444574563516,
+        "mean": 204.16444574563516,
+        "minimum": 204.16444574563516,
+        "maximum": 204.16444574563516,
+        "p95": 204.16444574563516
+      },
+      "ttft_seconds": {
+        "median": 2.5985026420094073,
+        "mean": 2.58296357789853,
+        "minimum": 0.5939157539978623,
+        "maximum": 4.425234530935995,
+        "p95": 4.315146627230569
+      },
+      "end_to_end_seconds": {
+        "median": 7.358500905043911,
+        "mean": 7.337598833876352,
+        "minimum": 7.0982050019083545,
+        "maximum": 7.522240854916163,
+        "p95": 7.510498293931596
+      },
+      "tpot_seconds": {
+        "median": 0.03748030128373625,
+        "mean": 0.037438072881715134,
+        "minimum": 0.024385876566772973,
+        "maximum": 0.05121487596779915,
+        "p95": 0.049877681019101804
+      },
+      "client_tokens_per_second": {
+        "median": 17.395052685156436,
+        "mean": 17.450499811990213,
+        "minimum": 17.016206004138457,
+        "maximum": 18.03272798765141,
+        "p95": 17.957086202449755
+      }
+    },
+    "15": {
+      "successful_trials": 1,
+      "failed_trials": 0,
+      "aggregate_tokens_per_second": {
+        "median": 220.34074848310948,
+        "mean": 220.34074848310948,
+        "minimum": 220.34074848310948,
+        "maximum": 220.34074848310948,
+        "p95": 220.34074848310948
+      },
+      "ttft_seconds": {
+        "median": 3.1533070569857955,
+        "mean": 3.1426675795267025,
+        "minimum": 0.5917229109909385,
+        "maximum": 5.543020918034017,
+        "p95": 5.402682822174392
+      },
+      "end_to_end_seconds": {
+        "median": 8.468624487984926,
+        "mean": 8.460825846709001,
+        "minimum": 8.15185957599897,
+        "maximum": 8.712983509991318,
+        "p95": 8.697141237335746
+      },
+      "tpot_seconds": {
+        "median": 0.04185289315747347,
+        "mean": 0.041875261946317306,
+        "minimum": 0.02496033536974253,
+        "maximum": 0.05952863515754355,
+        "p95": 0.05783356436139603
+      },
+      "client_tokens_per_second": {
+        "median": 15.114615151681743,
+        "mean": 15.135517370583301,
+        "minimum": 14.69071987261543,
+        "maximum": 15.701938779326218,
+        "p95": 15.626491239820197
+      }
+    }
+  }
+}

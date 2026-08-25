@@ -1,0 +1,32 @@
+{
+  "format_version": 1,
+  "artifacts": [
+    {"path": "dflash-k6-prompt16000-capacity-probe.json", "sha256": "cb452802226e83d937b1013bca5e86650e202c47dac343234177625b965b0f00"},
+    {"path": "dflash-k6-prompt4000-capacity-probe.json", "sha256": "e937ded3c05bea42738011d8f2810d417a15f70438489569e27ede6c60b2ab8d"},
+    {"path": "dflash2-k4.json", "sha256": "5b41ea3ca4bfd401df55f5552c403c49d52f76fbc1e5119303a2bcacc283a2c4"},
+    {"path": "dflash2-k5.json", "sha256": "71a710b462d35a9da13f449ccbab4881f6bb8736fd00023e63c4b598855a0541"},
+    {"path": "dflash2-k6-prompt1024.json", "sha256": "f258f2e0329838aa1b71523f0763ad7256e6b7265b54235ee9ec35fb2cbaf847"},
+    {"path": "dflash2-k6-prompt16000.json", "sha256": "0f6cdbaf900b5e8dbcecfdb7ec7ad75c57ece9b9ec73c8cbc8add758e6dc60e6"},
+    {"path": "dflash2-k6-prompt3200.json", "sha256": "66562830c5655e87930c82a19a3abea56eed6740a28effb6044f32d74167e166"},
+    {"path": "dflash2-k6-prompt3900.json", "sha256": "80555805367e6f684a47d912f48a1089601bb57342dff0c9cf64c9685d62cce7"},
+    {"path": "dflash2-k6-prompt4000.json", "sha256": "eb06224809f27870ed60756cb5e9c8ea248fe67a333a2fa0b134be3a6034a723"},
+    {"path": "dflash2-k6-prompt512.json", "sha256": "099f6cb7a18e619abc7884839243dba65025786a2e432e082c75811128f159ee"},
+    {"path": "dflash2-k6.json", "sha256": "9b6b51bbffc435b446a5b2ead3f48d4a73c75a2793d2c03d8c826aea7e6ad42e"},
+    {"path": "learned-policy.json", "sha256": "d6659121d85167986d8a3e89635a53a756bb3514207e8abc28e9fac1972c6205"},
+    {"path": "prompts/prompt-1024.txt", "sha256": "c51fe9651b0e4fd4b1e0321bdb8268b4e7408c5fe84a5e6bbbb31c5e957f4c6a"},
+    {"path": "prompts/prompt-16000.txt", "sha256": "42bb288a42f35deba0451501dcf191d4f732ff27ae4ba386b13aa2ad6ddd2b27"},
+    {"path": "prompts/prompt-3200.txt", "sha256": "f0d2438c6896c781be2ae2eec03b884ffd51d08b844f2aa5eb189e7bbc8873aa"},
+    {"path": "prompts/prompt-3900.txt", "sha256": "392428ea7b4fa11fd8f6cd25867d4506195180e7af1c0e2c8dc8b397ad427eef"},
+    {"path": "prompts/prompt-4000.txt", "sha256": "64ec967dcbbc09fbd83b25f8a6461f86ad08b94d4e79359e8c3239a23f714288"},
+    {"path": "prompts/prompt-512.txt", "sha256": "d66545949f53407c77a6735919d6901ec960246cad4ddd927157b48fe8344226"},
+    {"path": "prompts/prompt-manifest.json", "sha256": "ee0b5f9a83841cd3578f4adb6894734f544e3bd62cb6fedab49d390d206ab6a1"},
+    {"path": "target-only-prompt1024.json", "sha256": "5390afd4d0832e6aa9e93e15c3ced5430bc7f00bd3cac72e48542d4f5919dd11"},
+    {"path": "target-only-prompt16000-capacity-probe.json", "sha256": "e1f7897ff39b32b28183511ae20adf766a9001934b81bffe4f4e53ed0ec24d5d"},
+    {"path": "target-only-prompt16000.json", "sha256": "904c99a8beb9e1d2731f0a07e4814df99601e9a4a313ee78169dba89e9cd8841"},
+    {"path": "target-only-prompt3200.json", "sha256": "31cdb8523d32e0b2ba8aafbee6231b308c04a531ede10eeef39c6ec47bbb9e60"},
+    {"path": "target-only-prompt3900.json", "sha256": "fe3241e92d558067d8f2194655f21638e221d5e567c85844f4c4b47e01c735f9"},
+    {"path": "target-only-prompt4000-capacity-probe.json", "sha256": "cf69d0898a8bc3a7df3cf4a6102d3fe21fbece5e655e2960faa8e667e9ca9428"},
+    {"path": "target-only-prompt4000.json", "sha256": "ea591fa725a97181affedde465959cfa502df1d5dacdcf9ea48258ba96f4d664"},
+    {"path": "target-only-prompt512.json", "sha256": "9411647eb4c63cf2828b2f396730ad4657596cb5f10f4a69003beb7d3e1a57c5"}
+  ]
+}
