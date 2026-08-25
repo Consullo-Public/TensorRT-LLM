@@ -12,6 +12,8 @@
 
 On the `minsky` GeForce RTX 5090, the evaluated DFlash2 NVFP4-draft configuration reached a five-trial median of **1,126.77 aggregate decode tokens/second with 15 simultaneous requests**. The equivalent target-only control reached 770.46 tokens/second, making the measured batch-15 gain **46.25%**.
 
+**Benchmark GPU: NVIDIA GeForce RTX 5090 (Blackwell, SM120).**
+
 | Configuration | Requests submitted concurrently per batch | Input context tokens per request | Forced decode tokens per request | Decode tokens per completed batch | Median aggregate decode tok/s | Five-trial range |
 |---|---:|---:|---:|---:|---:|---:|
 | DFlash2, NVFP4 draft | 8 | 102 | 512 | 4,096 | **736.39** | 628.56–757.31 |
