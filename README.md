@@ -8,6 +8,23 @@
 > This project is not supported or endorsed by NVIDIA, Alibaba/Qwen, or Z Lab.
 > The complete upstream README and attribution follow unchanged below.
 
+## Qwen3.8-27B batched decode benchmark
+
+On the `minsky` GeForce RTX 5090, the evaluated DFlash2 NVFP4-draft configuration reached a five-trial median of **1,126.77 aggregate decode tokens/second with 15 simultaneous requests**. The equivalent target-only control reached 770.46 tokens/second, making the measured batch-15 gain **46.25%**.
+
+| Configuration | Requests submitted concurrently per batch | Input context tokens per request | Forced decode tokens per request | Decode tokens per completed batch | Median aggregate decode tok/s | Five-trial range |
+|---|---:|---:|---:|---:|---:|---:|
+| DFlash2, NVFP4 draft | 8 | 102 | 512 | 4,096 | **736.39** | 628.56–757.31 |
+| DFlash2, NVFP4 draft | 12 | 103–104 | 512 | 6,144 | **972.27** | 927.68–987.03 |
+| DFlash2, NVFP4 draft | 15 | 103–104 | 512 | 7,680 | **1,126.77** | 1,093.36–1,199.87 |
+| Target only | 15 | 103–104 | 512 | 7,680 | **770.46** | 768.52–771.80 |
+
+Each batch consisted of the stated number of simultaneous OpenAI-compatible chat-completion requests. The workload used a deterministic technical-analysis prompt, temperature `0`, `ignore_eos=true`, and both `min_tokens` and `max_tokens` set to 512. The measured initial input context was 102–104 tokens per request; after the forced decode, each completed sequence contained approximately 614–616 input-plus-output tokens. A separate 64-token warmup was excluded.
+
+Aggregate decode throughput is calculated as the sum of completion tokens returned by every request divided by wall-clock time for the entire concurrent batch. It is not a per-request rate and does not include prompt tokens. “Batch” here describes concurrently submitted HTTP requests; TensorRT-LLM may schedule those requests through different internal microbatch shapes during execution.
+
+The table reports the historical same-host workload used to choose the production concurrency limit, not the model's maximum supported context window or a universal optimum. Raw trials, exact timings, environment provenance, and known reproducibility limitations are available in the [published Minsky results](examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-21/README.md).
+
 <div align="center">
 
 TensorRT LLM
