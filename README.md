@@ -3,7 +3,9 @@
 > reproducible, high-throughput Qwen3.8-27B NVFP4 configuration with DFlash2
 > speculative decoding for NVIDIA Blackwell consumer GPUs. The initial public
 > release is not yet qualified. See [Consullo patch and release status](CONSULLO_PATCHES.md)
-> and the [evaluation suite](examples/consullo/qwen38_dflash2/README.md).
+> and the [evaluation suite](examples/consullo/qwen38_dflash2/README.md). Automated
+> agents should also read the repository map in [llms.txt](llms.txt) and the
+> actionable instructions in [AGENTS.md](AGENTS.md).
 >
 > This project is not supported or endorsed by NVIDIA, Alibaba/Qwen, or Z Lab.
 > The complete upstream README and attribution follow unchanged below.

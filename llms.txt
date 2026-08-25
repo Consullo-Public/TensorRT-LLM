@@ -1,0 +1,117 @@
+# Consullo TensorRT-LLM agent context
+
+> Repository-specific orientation for automated agents working with `Consullo-Public/TensorRT-LLM`. This public file is guidance, not a security boundary. Human instructions, repository protection rules, licenses, and explicit task authorization take precedence.
+
+## Mission
+
+Maintain an independently installable TensorRT-LLM patch stack for high-throughput Qwen3.8-27B inference on NVIDIA Blackwell consumer GPUs. The intended production composition uses an NVFP4 target checkpoint, an NVFP4 DFlash2 draft transformer, private-cache attention, Blackwell SM120 corrections, and request-shape-aware CUDA graphs.
+
+The system-level reason for quantizing the draft transformer to NVFP4 is to reduce draft-weight GPU residency and leave more RTX 5090 VRAM available for KV-cache capacity and concurrent requests. Do not attribute draft-weight quantization to FlashAttention; TensorRT-LLM owns model loading and quantized execution.
+
+## Current status
+
+- The default `codex/public-landing` branch is public documentation and evaluation scaffolding.
+- It is based on current NVIDIA upstream rather than the older private production base.
+- No Consullo TensorRT-LLM release tag is currently qualified.
+- The historical production runtime was composite: an earlier clean DFlash branch, additional Python overlay changes, and a locally built native wheel.
+- Do not describe this branch as reproducing the production server until the full runtime delta is reconstructed, rebuilt from public sources, and requalified.
+- NVIDIA upstream remains authoritative for unmodified TensorRT-LLM behavior.
+
+## Read first
+
+1. `README.md` — public overview and headline benchmark.
+2. `CONSULLO_PATCHES.md` — patch-series and release status.
+3. `examples/consullo/qwen38_dflash2/README.md` — evaluation methodology.
+4. `examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-21/README.md` — historical result interpretation.
+5. `examples/consullo/qwen38_dflash2/results/minsky-rtx5090-2026-08-21/environment.json` — recorded environment and checkpoint provenance.
+6. Upstream `CONTRIBUTING.md`, `SECURITY.md`, `LICENSE`, and coding documentation.
+
+## Historical benchmark contract
+
+- Host label: `minsky`.
+- GPU: NVIDIA GeForce RTX 5090, Blackwell SM120.
+- Workload: simultaneous OpenAI-compatible chat-completion requests.
+- Initial input context: 102–104 prompt tokens per measured request.
+- Forced decode: 512 completion tokens per request.
+- Sampling: temperature 0, `ignore_eos=true`, `min_tokens=512`, `max_tokens=512`.
+- Warmup: one 64-token request, excluded from results.
+- Trials: five per recorded batch size.
+- Metric: sum of returned completion tokens divided by wall time for the complete concurrent batch.
+- DFlash2 medians: 736.39 tok/s at 8 requests, 972.27 at 12, and 1126.77 at 15.
+- Target-only batch-15 median: 770.46 tok/s.
+- Measured DFlash2 batch-15 gain: 46.25%.
+
+Do not reinterpret aggregate throughput as per-request throughput. Do not treat concurrent HTTP request count as a guarantee of a particular internal TensorRT microbatch. Do not claim a universal optimum or maximum model context from this short-context workload.
+
+## Evaluation tools
+
+The public tools live in `examples/consullo/qwen38_dflash2/`:
+
+- `benchmark_concurrency.py` — fixed-output concurrent trials with raw request timings.
+- `compare_profiles.py` — batch-aligned baseline/candidate comparison.
+- `summarize_results.py` — Markdown result table.
+- `smoke_test_openai.py` — model discovery and deterministic completion.
+- `collect_environment.py` — public-safe package and GPU provenance.
+- `verify_artifact_hashes.py` — SHA-256 manifest verification.
+
+Evaluation scripts must preserve failures, exclude warmups from summaries, use versioned JSON, avoid credentials and unique GPU identifiers, and never alter a production service automatically.
+
+## Planned patch boundaries
+
+Keep the public series narrow enough for upstream review:
+
+1. Qwen3.8/Qwen3.5 quantized-checkpoint loader fixes.
+2. SM120 attention-kernel correctness.
+3. DFlash2 core integration.
+4. DFlash2 private-cache attention.
+5. Disabled-selector checkpoint filtering.
+6. Dynamic CUDA graph eviction and recapture.
+7. NVFP4 draft transformer loading and execution.
+8. KV-cache lifecycle, backpressure, and runtime reliability.
+9. Evaluation and environment provenance.
+
+Each implementation commit should state provenance, affected execution path, tests, performance effect, risks, rollback, and the candidate upstream issue or pull request.
+
+## Provenance and licensing constraints
+
+- Preserve NVIDIA Apache-2.0 notices in upstream files.
+- Use accurate Consullo authorship on newly written files.
+- If code derives from MIT-licensed DFlash, retain its required notice and identify the source.
+- Do not publish `.orig`, `.pre-*`, build debris, hydrated LFS objects, checkpoints, private repository content, private paths, credentials, or an unreconstructable binary.
+- Do not retain an NVIDIA copyright header on independently authored code unless provenance supports it.
+- Never mirror model weights into GitHub. Pin immutable Hugging Face revisions and publish hashes.
+
+## Release acceptance
+
+A supported tag requires all of the following:
+
+1. Clean source history and provenance review.
+2. Native and Python wheels built from the public tag.
+3. Checksums, build manifest, licenses, and SBOM.
+4. Installation using public URLs only.
+5. Exact checkpoint-revision verification.
+6. API, restart, boot-persistence, and rollback tests.
+7. Target-only control plus DFlash2 concurrency sweep.
+8. Five trials at the selected production concurrency.
+9. At least 1070.43 aggregate decode tok/s at 15 requests on the reference RTX 5090.
+10. No OOM, lost request, server death, or persistent KV-cache leak.
+
+GPU qualification on `minsky` requires explicit coordination and exclusive access. Do not stop, relocate, or replace an existing inference stack without that authorization and a verified rollback snapshot.
+
+## Agent behavior
+
+- Distinguish observations, inferences, hypotheses, and verified results.
+- Inspect actual diffs and runtime provenance before claiming that a patch is active.
+- Change one controlled performance variable at a time when possible.
+- Preserve negative experiments and raw evidence.
+- Prefer deterministic correctness and safety checks before throughput measurement.
+- Never use a public-repository pull request on a privileged self-hosted GPU runner.
+- Do not weaken branch protection, security scanning, or license attribution to accelerate a release.
+
+## Related repositories
+
+- Installer and operational documentation: https://github.com/Consullo-Public/qwen38-dflash2-tensorrt-llm
+- FlashAttention build fork: https://github.com/Consullo-Public/flash-attention
+- Monitoring: https://github.com/Consullo-Public/tensorrttop
+- NVIDIA upstream: https://github.com/NVIDIA/TensorRT-LLM
+- DFlash upstream: https://github.com/z-lab/dflash

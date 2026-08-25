@@ -1,4 +1,54 @@
-# AGENTS.md
+# Consullo public-fork addendum
+
+These instructions supplement the TensorRT-LLM upstream instructions below for work in `Consullo-Public/TensorRT-LLM`. Read `llms.txt`, `CONSULLO_PATCHES.md`, and `examples/consullo/qwen38_dflash2/README.md` before changing the Consullo patch stack, evaluation tools, benchmark claims, or release metadata.
+
+For Consullo-only files and branches, this addendum takes precedence when an upstream instruction assumes NVIDIA authorship, NVIDIA infrastructure, or an upstream pull-request destination. Continue following upstream coding, testing, and DCO requirements wherever they apply.
+
+## Fork mission and status
+
+- Optimize Qwen3.8-27B inference on NVIDIA Blackwell consumer GPUs using an NVFP4 target, NVFP4 DFlash2 draft transformer, private-cache attention, CUDA-graph policy, and KV-cache reliability changes.
+- Draft NVFP4 is intended to reduce weight residency so more RTX 5090 VRAM remains available for the KV cache and concurrent requests.
+- The default `codex/public-landing` branch is not a qualified production release.
+- The historical production runtime includes changes not yet reconstructed in public source. Never claim source equivalence until hashes, builds, and Minsky requalification prove it.
+
+## Required Consullo workflow
+
+1. Establish the upstream base and actual public branch before editing.
+2. Preserve upstream changes and keep Consullo changes in narrow, reviewable commits.
+3. Identify whether a change belongs to model loading, DFlash2, private-cache attention, CUDA graphs, native kernels, KV-cache lifecycle, runtime reliability, or evaluation.
+4. Record provenance, tests, correctness implications, performance hypothesis, rollback, and candidate upstream disposition.
+5. Run the smallest deterministic CPU/unit checks first.
+6. Run GPU tests only with explicit access authorization and an available model cache.
+7. Preserve raw results and failures; never select only the fastest trial.
+
+## Consullo benchmark rules
+
+- The reference GPU is an NVIDIA GeForce RTX 5090, Blackwell SM120.
+- The published workload uses 102–104 input tokens and 512 forced decode tokens per request.
+- Aggregate decode throughput is total returned completion tokens divided by concurrent-batch wall time.
+- The historical five-trial medians are 736.39 tok/s at 8 requests, 972.27 at 12, and 1126.77 at 15; target-only at 15 is 770.46.
+- Do not infer long-context performance, quality equivalence, a universal concurrency optimum, or per-request throughput from these values.
+- Changes to `examples/consullo/qwen38_dflash2/` must keep result formats versioned, preserve failures, sanitize credentials and unique identifiers, and avoid service mutation.
+
+## Public-release constraints
+
+- Do not publish checkpoints, private paths, credentials, backup files, generated binaries, hydrated LFS objects, or unreconstructable wheels.
+- Newly authored files require accurate authorship; do not automatically apply an NVIDIA copyright to independently authored Consullo code.
+- Preserve Apache-2.0 notices and all notices required by derived DFlash MIT code.
+- A supported tag requires public-source builds, hashes, SBOM, public-only installation, exact model revisions, rollback tests, and the acceptance criteria in `llms.txt`.
+- Never attach a privileged self-hosted GPU runner to public pull-request workflows.
+- GPU qualification on `minsky` requires explicit owner coordination and exclusive access. Do not stop or relocate the running stack without approval and a verified recovery snapshot.
+
+## Git destinations
+
+- NVIDIA upstream: `https://github.com/NVIDIA/TensorRT-LLM`
+- Consullo public fork: `https://github.com/Consullo-Public/TensorRT-LLM`
+- Keep the upstream synchronization branch free of Consullo-only commits.
+- Use protected Consullo feature or release branches and pull requests for publication work.
+
+---
+
+# TensorRT-LLM upstream agent instructions
 
 TensorRT-LLM: open-source library for optimized LLM inference on NVIDIA GPUs.
 Python and C++ codebase with PyTorch and AutoDeploy execution paths.

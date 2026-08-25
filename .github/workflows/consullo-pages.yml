@@ -30,6 +30,8 @@ jobs:
         with:
           source: docs/consullo
           destination: _site
+      - name: Publish LLM index
+        run: cp llms.txt _site/llms.txt
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
