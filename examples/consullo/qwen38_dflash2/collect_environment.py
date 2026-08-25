@@ -47,7 +47,7 @@ def main():
         "nvidia_smi": command_output(
             [
                 "nvidia-smi",
-                "--query-gpu=name,uuid,driver_version,memory.total,compute_cap",
+                "--query-gpu=name,driver_version,memory.total,compute_cap",
                 "--format=csv,noheader",
             ]
         ),
@@ -60,4 +60,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

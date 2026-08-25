@@ -6,6 +6,7 @@ import json
 import statistics
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
@@ -117,6 +118,15 @@ def parse_batches(value):
     return batches
 
 
+def public_endpoint(value):
+    """Remove credentials, query parameters, and fragments from a recorded URL."""
+    parsed = urllib.parse.urlsplit(value)
+    hostname = parsed.hostname or ""
+    if parsed.port is not None:
+        hostname = f"{hostname}:{parsed.port}"
+    return urllib.parse.urlunsplit((parsed.scheme, hostname, parsed.path, "", ""))
+
+
 def main():
     """Run warmup and benchmark trials, then write a versioned JSON artifact."""
     parser = argparse.ArgumentParser()
@@ -155,7 +165,7 @@ def main():
         "format_version": FORMAT_VERSION,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "label": args.label,
-        "base_url": args.base_url,
+        "base_url": public_endpoint(args.base_url),
         "model": args.model,
         "output_tokens_per_request": args.output_tokens,
         "workload": args.workload,
@@ -170,4 +180,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

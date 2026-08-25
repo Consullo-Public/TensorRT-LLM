@@ -1,0 +1,43 @@
+{
+  "format_version": 1,
+  "recorded_date": "2026-08-21",
+  "host_label": "minsky",
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 5090",
+    "compute_capability": "12.0",
+    "architecture": "SM120",
+    "driver": "595.71.05"
+  },
+  "operating_system": "Ubuntu 25.10",
+  "glibc": "2.42",
+  "python": "3.12.13",
+  "cuda": "13.0",
+  "pytorch": "2.11.0+cu130",
+  "tensorrt_llm": {
+    "version": "1.3.0rc23",
+    "source_base_commit": "f20ea652",
+    "dflash_branch_head": "cb8968f8",
+    "installed_metadata_sha256": "c1b6d8c435b5e2046ee881603187a19e74c4b5dee157ea9390cfcf242ebaa947",
+    "qualification_status": "HISTORICAL_COMPOSITE_RUNTIME"
+  },
+  "flash_attention": {
+    "version": "2.8.4",
+    "source_commit": "0251105a2fb19d2957484b7f023cd8c115286ced",
+    "wheel_sha256": "6c9d67e6d5e6a5c2ec261dc1f78758d1f6cb05df90100c42c6c4e43774c822a1"
+  },
+  "target_checkpoint": {
+    "repository": "RadixArk/Qwen3.8-27B-NVFP4",
+    "revision": "554ebba9b5f1b79dc11246341960360e6ef05ef4"
+  },
+  "draft_checkpoint": {
+    "tested_repository": "incoai/Qwen3.8-27B-DFlash2",
+    "public_repository": "z-lab/Qwen3.8-27B-DFlash2",
+    "tested_revision": "dedf8df68adfb1afeaf7b7480c0a0243108177b4",
+    "config_sha256": "873e3556509b0da06e29654ba00d4944888d4b5e8a33afde25f7eb27d321e980"
+  },
+  "notes": [
+    "The installed TensorRT-LLM wheel was a local native build and its wheel file is no longer present.",
+    "The running Python overlay contained additional changes beyond the recorded DFlash branch head.",
+    "A public release is not qualified until those deltas are reconstructed and the clean-install test is repeated."
+  ]
+}
