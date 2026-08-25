@@ -24,6 +24,32 @@ The acceptance metrics do not support the hypothesis that speculative decoding s
 
 The batch-12 change is large, stable (1,283.94–1,286.40 tok/s), and accompanied by higher acceptance. The batch-8 change is too small to distinguish from normal run variation. The evidence-backed production policy is therefore `TRTLLM_DFLASH2_SELECTOR_BATCH_SIZES=12,15`.
 
+## Production-policy percentiles
+
+The production-policy view combines the selector-enabled batch-12 artifact with batches 1, 8, and 15 from the post-fix matrix. Batch 15 already used the selector. Every row retains the identical 90-token prompt and 512-token forced output.
+
+### Per-client latency
+
+| Concurrent requests | TTFT p50 / p95 (ms) | TPOT p50 / p95 (ms/token) | E2E p50 / p95 (ms) |
+|---:|---:|---:|---:|
+| 1 | 94.40 / 104.85 | 8.261 / 8.265 | 4,315.79 / 4,327.35 |
+| 8 | 115.73 / 117.48 | 8.827 / 8.833 | 4,626.23 / 4,630.44 |
+| 12 | 154.81 / 156.59 | 9.053 / 9.061 | 4,782.12 / 4,784.49 |
+| 15 | 157.98 / 160.88 | 10.550 / 12.570 | 5,548.93 / 6,582.41 |
+
+TTFT, TPOT, and E2E percentiles use the individual client-request observations pooled across all five trials for each batch size.
+
+### Speculation and throughput
+
+| Concurrent requests | Acceptance length p50 / p95 | Acceptance rate p50 / p95 | Aggregate decode tok/s p50 / p95 |
+|---:|---:|---:|---:|
+| 1 | 2.580 / 2.586 | 22.57% / 22.66% | 118.63 / 118.69 |
+| 8 | 2.431 / 2.431 | 20.45% / 20.45% | 885.28 / 886.41 |
+| 12 | 2.768 / 2.768 | 25.25% / 25.25% | 1,284.55 / 1,286.31 |
+| 15 | 2.645 / 2.646 | 23.50% / 23.52% | 1,154.85 / 1,167.56 |
+
+Acceptance and aggregate-throughput percentiles use the five trial-level observations. For throughput and acceptance, p95 is the favorable high tail; for latency, p95 is the unfavorable slow tail. Values are rounded only for presentation; the JSON artifacts retain full precision.
+
 ## V2 dual-cache failure and fix
 
 Before the fix, a synchronized batch of fifteen 512-token requests reached a tail state in which thirteen completion-pending requests retained KV pages and two generation requests were deferred. The V2 scheduler raised a false deadlock and terminated the executor. Host-cache offload and a larger KV fraction did not correct it.

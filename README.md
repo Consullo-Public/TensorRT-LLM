@@ -14,16 +14,38 @@
 
 On the `minsky` **NVIDIA GeForce RTX 5090 (Blackwell, SM120)**, the patched DFlash2 NVFP4-draft configuration reached a five-trial median of **1,154.85 aggregate decode tokens/second at 15 concurrent requests**. The controlled target-only result was 656.85 tokens/second, a measured **75.82% DFlash2 gain**. All 15-request trials completed after the V2 dual-cache lifecycle fix.
 
-| Concurrent requests | Target-only aggregate tok/s | DFlash2 aggregate tok/s | DFlash2 gain | DFlash2 median client tok/s | Target / DFlash2 TTFT (ms) | DFlash2 accepted length |
-|---:|---:|---:|---:|---:|---:|---:|
-| 1 | 46.00 | **118.63** | +157.88% | 118.63 | 119.85 / 94.40 | 2.580 |
-| 8 | 361.45 | **885.28** | +144.93% | 110.67 | 125.22 / 115.73 | 2.431 |
-| 12 | 529.67 | **1,067.79** | +101.60% | 89.00 | 152.56 / 154.29 | 2.265 |
-| 15 | 656.85 | **1,154.85** | +75.82% | 92.27 | 157.68 / 157.98 | 2.645 |
+| Concurrent requests | Target-only aggregate tok/s p50 | Production-policy DFlash2 aggregate tok/s p50 | DFlash2 gain |
+|---:|---:|---:|---:|
+| 1 | 46.00 | **118.63** | +157.88% |
+| 8 | 361.45 | **885.28** | +144.93% |
+| 12 | 529.67 | **1,284.55** | +142.52% |
+| 15 | 656.85 | **1,154.85** | +75.82% |
+
+The production-policy rows use DFlash's selector at batches 12 and 15 and omit it at batches 1 and 8, following the controlled selector experiment.
+
+### Production-policy client latency
+
+| Concurrent requests | TTFT p50 / p95 (ms) | TPOT p50 / p95 (ms/token) | E2E p50 / p95 per client (ms) |
+|---:|---:|---:|---:|
+| 1 | 94.40 / 104.85 | 8.261 / 8.265 | 4,315.79 / 4,327.35 |
+| 8 | 115.73 / 117.48 | 8.827 / 8.833 | 4,626.23 / 4,630.44 |
+| 12 | 154.81 / 156.59 | 9.053 / 9.061 | 4,782.12 / 4,784.49 |
+| 15 | 157.98 / 160.88 | 10.550 / 12.570 | 5,548.93 / 6,582.41 |
+
+### Production-policy speculation and aggregate throughput
+
+| Concurrent requests | Acceptance length p50 / p95 | Acceptance rate p50 / p95 | Aggregate decode tok/s p50 / p95 |
+|---:|---:|---:|---:|
+| 1 | 2.580 / 2.586 | 22.57% / 22.66% | 118.63 / 118.69 |
+| 8 | 2.431 / 2.431 | 20.45% / 20.45% | 885.28 / 886.41 |
+| 12 | 2.768 / 2.768 | 25.25% / 25.25% | 1,284.55 / 1,286.31 |
+| 15 | 2.645 / 2.646 | 23.50% / 23.52% | 1,154.85 / 1,167.56 |
 
 Each batch used synchronized OpenAI-compatible chat-completion requests with an exactly **90-token input context per request**, temperature `0`, `ignore_eos=true`, and exactly **512 decoded tokens per request**. Five measured trials followed a separate 64-token shape warmup. Aggregate decode throughput is the sum of all completion tokens divided by concurrent-batch wall time; it is not an individual client's streaming rate.
 
 The same matrix exposed a request-shape optimization. Enabling DFlash's selector at batch 12 increased the median from 1,067.79 to **1,284.55 aggregate tok/s (+20.30%)**, raised accepted length from 2.265 to 2.768, and left TTFT essentially unchanged. Enabling it at batch 8 changed throughput by only +0.21%, so the production selector policy is `12,15`.
+
+Latency percentiles are calculated across the individual client requests from all five trials at a given batch size. Acceptance and aggregate-throughput percentiles are calculated across the five trial-level observations. Higher p95 throughput or acceptance is favorable; higher p95 latency is unfavorable.
 
 Aggregate decode throughput is calculated as the sum of completion tokens returned by every request divided by wall-clock time for the entire concurrent batch. It is not a per-request rate and does not include prompt tokens. “Batch” here describes concurrently submitted HTTP requests; TensorRT-LLM may schedule those requests through different internal microbatch shapes during execution.
 
